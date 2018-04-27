@@ -34,10 +34,19 @@ INSTALLED_APPS = (
 
 CHATTERBOT = {
     'name': 'Django ChatterBot Example',
-    'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
-    'training_data': [
-        'chatterbot.corpus.english.greetings'
+    'logic_adapters': [
+        'rent_house.functions.house_asking.HouseAdapter',
+        'rent_house.functions.price_asking.PriceAdapter',
+        'rent_house.functions.greeting.GreetingAdapter'
+
     ],
+    'preprocessors': [
+        'rent_house.preprocessor.extract_intent_entities'
+    ],
+    # 'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
+    # 'training_data': [
+    #     'chatterbot.corpus.english.greetings'
+    # ],
     'django_app_name': 'django_chatterbot'
 }
 
@@ -50,7 +59,15 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
 )
-
+MIDDLEWARE = [
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    # 'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+]
 ROOT_URLCONF = 'rent_house.urls'
 
 TEMPLATES = [
