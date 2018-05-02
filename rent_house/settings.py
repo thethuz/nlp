@@ -47,6 +47,7 @@ CHATTERBOT = {
     # 'training_data': [
     #     'chatterbot.corpus.english.greetings'
     # ],
+    'use_django_models': True,
     'django_app_name': 'django_chatterbot'
 }
 
@@ -94,11 +95,15 @@ WSGI_APPLICATION = 'rent_house.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': 'Arrow@123',
+        'NAME': 'chatbot'
     }
 }
-
+SILENCED_SYSTEM_CHECKS = ['mysql.E001']
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/

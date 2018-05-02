@@ -11,7 +11,7 @@ class PriceAdapter(LogicAdapter):
         self.id_adapter = 'PRICE'
 
     def can_process(self, statement):
-        fb_statement = statement['extra_data']
+        fb_statement = statement.extra_data
         return True
         # if not fb_statement.has_key('id_adapter'):
         #     rasa_nlu = fb_statement['rasa_nlu']
@@ -23,9 +23,10 @@ class PriceAdapter(LogicAdapter):
         #     return False
 
     def process(self, statement):
-        fb_statement = statement['extra_data']
+        fb_statement = statement.extra_data
         # rasa_nlu = fb_statement['rasa_nlu']
+        # fb_statement['confidence']=0.2
         statementResponse = Statement(u"Chào bạn! Tôi có thể giúp gì cho bạn? Price")
-        statementResponse.confidence = 0.2#rasa_nlu['intent']['confidence']
-        print(statementResponse)
+        statementResponse.confidence = 0.1#rasa_nlu['intent']['confidence']
+        # print(statementResponse)
         return statementResponse

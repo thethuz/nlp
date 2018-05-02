@@ -1,0 +1,50 @@
+__label__inform	mở bài hát <title>
+__label__inform	mở bài <title>
+__label__inform	bật bài <title>
+__label__inform	bật bài đó cho mình
+__label__inform	tớ muốn nghe bài <title> của <name>
+__label__inform	tớ muốn nghe nhạc
+__label__inform	mình muốn nghe nhạc bot ơi
+__label__inform	tớ muốn nghe bài gì đó <property>
+__label__inform	bật bài hát <title>
+__label__inform	mở bài hát <title>
+__label__change	bài khác đi cậu
+__label__change	chơi bài nhạc khác
+__label__change	chơi bài nhạc khác cho mình
+__label__change	bật bài khác bot ơi
+__label__change	next bài đi bot
+__label__change	mình không thích bài này
+__label__change	bài này không hay
+__label__change	bài hát này tệ quá
+__label__change	bài này nghe chán thế
+__label__change	bài gì mà chán vậy bot
+__label__search	ca khúc vừa rồi là của ai
+__label__search	bài hát này của ai bot ơi ?
+__label__search	ai hát bài này thế bot ?
+__label__search	ai hát bài <title> vậy
+__label__search	ai sáng tác bài <title> vậy bot ?
+__label__search	bài <title> do ai trình bày hả bot
+__label__search	ca sĩ nào hát ?
+__label__search	nhạc sĩ nào sáng tác ?
+__label__search	ai hát bài này thế
+__label__search	bài này do ai hát
+__label__show	dạo này có bài gì hay
+__label__show	lời khó nghe quá bot ơi
+__label__show	thông tin bài hát <title>
+__label__show	xem thông tin bài hát
+__label__show	ca sĩ <name> có những bài hát nào
+__label__show	những bài hát của <name>
+__label__show	bài hát do <name> sáng tác
+__label__show	danh sách bài hát của <name>
+__label__show	cho mình xem lời được không
+__label__show	lời bài hát
+__label__other	bài đó hay đấy
+__label__other	bài này được đấy bạn
+__label__other	bài hát được đó bạn
+__label__other	bài gì cũng được hả ?
+__label__other	bài này nghe hay phết nhỉ
+__label__other	bài đó đỉnh đấy
+__label__other	bài nghe hay phết
+__label__other	bài hát hay thế
+__label__other	bài này nghe hay phết nhở
+__label__other	ca khúc này nghe thích đó

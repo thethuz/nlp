@@ -1,0 +1,35 @@
+__label__price Giá phòng trọ Hà_nội
+__label__price giá nhà gần hà_nội
+__label__price Giá thuê nhà ở khu cầu giấy ?
+__label__price giá thuê nhà ở cầu giấy ?
+__label__price giá chung_cư quận Thanh_Xuân bao_nhiêu
+__label__price giá nhà thuê ?
+__label__price Giá nhà giải_phóng
+__label__price giá nhà tỉnh thái_bình
+__label__price giá nhà_trọ phường Quỳnh_Lôi , Hai_Bà_Trưng bao_nhiêu ?
+__label__price tìm thuê cửa_hàng phố Bà_Triệu , Hà_nội
+__label__price giá nhà khu thanh_xuân bao_nhiêu
+__label__price giá nhà phường Trung_Hòa , Hà_Nội
+__label__house tim nhà_trọ giá trên 3 triệu
+__label__house Thuê nhà theo căn , giá sinh_viên quận Hai_Bà_Trưng
+__label__house gía nhà_nghỉ ở trần_duy_hưng
+__label__house nhà mặt_phố cho thuê
+__label__house mình muốn tìm nhà_trọ tại Hai_Bà_Trưng giá dưới 2 triệu phòng khép_kín
+__label__house nhà_trọ ở bách_khoa
+__label__house căn_hộ cho thuê dưới 3 triệu ở hai bà_trưng
+__label__house em tìm nhà_trọ khu_vực bách_khoa ạ
+__label__house nhà_trọ tại khu_vực mễ_trì
+__label__house tìm thuê phòng trọ ở gần Bách_Khoa
+__label__greeting :3
+__label__greeting :))
+__label__greeting menu
+__label__greeting =))
+__label__greeting dùng thế nào
+__label__greeting tìm hiểu về con bot
+__label__greeting Ngu quá :/
+__label__greeting cần hỗ trợ
+__label__greeting Ahhhhhh
+__label__greeting ê bot
+__label__greeting ahihi đồ ngốc
+__label__greeting stupid bot
+__label__greeting bạn thông minh quá cơ ý

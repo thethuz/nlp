@@ -1,0 +1,225 @@
+__label__search	bài <title> do ai sáng tác?
+__label__search	bài <title> do ai sáng tác hả bot
+__label__search	ai sáng tác bài <title> hả bot ơi
+__label__search	ai hát bài <title> hả bot
+__label__search	ai hát bài <title>?
+__label__search	ca sĩ nào hát bài <title>
+__label__search	bài hát <title> của ai?
+__label__search	bài hát <title> của ai hả bot ơi
+__label__search	nhạc sĩ <name> sáng tác bài <title> phải không
+__label__search	<name> hát bài <title> phải không?
+__label__search	bài <title> của ca sĩ nào?
+__label__search	bài nào do <name> hát ấy nhỉ
+__label__search	cái bài do <name> và <name> hát là bài nào bot nhỉ
+__label__search	<name> và <name> hát chung với nhau bài gì
+__label__search	tôi muốn tìm một bài hát
+__label__search	bạn tìm cho mình 1 bài hát được không
+__label__search	tìm cho mình bài của ca sĩ <name> được không ?
+__label__search	ca sĩ nào hát bài này ?
+__label__search	ai là ngưòi thể hiện ca khúc <title> ?
+__label__search	ai hát bài đó thế ?
+__label__search	người hát bài <title> là <name> phải không ?
+__label__search	do ai hát
+__label__search	do ai trình bày ?
+__label__search	do ai thể hiện ?
+__label__search	bài đó do ai sáng tác thế ?
+__label__search	ca sĩ <name> sáng tác bài đó à ?
+__label__search	nhạc sĩ <name> sáng tác bài đó hả cậu ?
+__label__search	ai hát bài ấy thế ?
+__label__search	ai sáng tác bài này thế bot
+__label__search	bài đó do ai sáng tác hả bot
+__label__search	bài này do ai sáng tác cơ ?
+__label__search	ai hát bài này thế bot
+__label__search	mình muốn tìm ca sĩ hát bài này ?
+__label__search	bài này do ai sáng tác
+__label__search	bài ấy do ai sáng tác ?
+__label__search	bài hát <title> do ai sáng tác ?
+__label__search	ai hát bài <title> thế bot ?
+__label__search	ai là người sáng tác bài hát <title>
+__label__search	bài hát <title> do ai thể hiện
+__label__search	ca khúc <title> do ai sáng tác ?
+__label__search	bài đó do ai sáng tác vậy ?
+__label__search	bài này do ai hát thế bot
+__label__change	bài khác đi bạn
+__label__change	mở bài khác đi bot
+__label__change	next bài đi
+__label__change	next bài
+__label__change	mở bài khác
+__label__change	bài khác làm ơn
+__label__change	làm ơn mở bài khác
+__label__change	bật bài khác
+__label__change	bật bài khác đi bạn ơi
+__label__change	bot ơi mở bài khác
+__label__change	bạn ơi bật bài khác
+__label__change	bài khác cho mình
+__label__change	mở bài khác dùm mình
+__label__change	bật bài khác cho mình
+__label__change	mở bài khác hay hơn đi
+__label__change	next
+__label__change	mở cho tớ bài khác
+__label__change	bài khác
+__label__change	bài này chán quá bài khác đi
+__label__change	bài này không hay , bài khác đi bot
+__label__change	không phải , bài của <name> cơ
+__label__change	không , bài <property> cơ
+__label__change	bài khác
+__label__change	bài khác đi
+__label__change	bài khác của <name> đi bạn
+__label__change	không phải bài này , bài của <name> cơ
+__label__change	không phải , bài <name> hát cơ
+__label__change	bot ơi bài khác
+__label__change	bot ơi bài khác đi
+__label__change	mở bài khác được không cậu
+__label__change	next bài khác đi bot
+__label__change	bài khác đi cậu ơi
+__label__change	bài khác đi bot ơi
+__label__change	mở cho tớ bài khác đi bot
+__label__change	bật bài khác
+__label__change	bật bài khác đi
+__label__change	làm ơn bật bài khác
+__label__change	mở bài khác đi làm ơn
+__label__change	bài khác được không cậu
+__label__change	bài khác đi cậu ơi
+__label__change	thay đổi bài cho mình
+__label__change	chơi bài khác giúp mình
+__label__change	cho tớ nghe bài khác
+__label__change	next phát
+__label__change	bài này không hay , bài khác đi
+__label__change	không hay , bài khác
+__label__inform	Mở cho mình bài hát <title>
+__label__inform	mở cho tôi bài hát <title> của <name>
+__label__inform	Mở cho mình bài hát <title> đi bot ơi
+__label__inform	bật bài <title>
+__label__inform	chơi bài <title> của <name>
+__label__inform	bật bài gì <property> đi bạn
+__label__inform	bật bài mới nhất của <name> đi bot ơi
+__label__inform	cho tôi nghe bài <title> của <name> đi
+__label__inform	mở cho mình bài gì <property>
+__label__inform	mở bài <title> do <name> sáng tác
+__label__inform	bật một bài của <name> mà <property> chút
+__label__inform	bật một bài nhạc <type>
+__label__inform	bật một bài <type>
+__label__inform	bật một bài nhạc <type> đi bot
+__label__inform	bật một bài <type> đi
+__label__inform	bật bài nhạc <type> của <name> đi
+__label__inform	mở cho mình 1 bài nhạc <type>
+__label__inform	gì cũng được
+__label__inform	bài nào cũng được
+__label__inform	bài gì cũng được
+__label__inform bài nào cũng ok
+__label__inform	bài gì cũng ok
+__label__inform	thế nào cũng được
+__label__inform	như thế nào cũng được
+__label__inform	tùy bạn
+__label__inform	tùy bot
+__label__inform	tùy cậu
+__label__inform	mở bài <title>
+__label__inform	bật bài <title>
+__label__inform	mở bài <type> của <name> đi
+__label__inform	mở bài nào đó <type> của name đi
+__label__inform	mình muốn nghe nhạc của <name>
+__label__inform	nghe nhạc gì <property> đi bạn
+__label__inform	tôi muốn nghe nhạc
+__label__inform	tớ muốn nghe một bài nhạc
+__label__inform	mở lại bài vừa rồi cho mình
+__label__inform	mở cho mình bài đấy đi
+__label__inform	mở bài đấy đi bạn
+__label__inform	mở cho mình bài đó
+__label__inform	bật bài đó cho mình
+__label__inform	mở cho mình bài khác của <name> đi
+__label__inform	mở cho minh bài khác của <name> có được không
+__label__inform	bot ơi tớ muốn nghe nhạc
+__label__inform	mở cho mình bài khác do <name> sáng tác đi
+__label__inform	mở bài gì hay hay đi cậu ơi
+__label__show	cho mình xem các bài hát của <name>
+__label__show	<name> có những bài nào nhỉ?
+__label__show	danh sách bài hát của <name>
+__label__show	Top 5 bài hát <property> nhất của <name>
+__label__show	cho mình xem các bài của <name> đi bot ơi
+__label__show	cho mình xem top 10 bài hát <property> nhất của <name>
+__label__show	bài hát nào <property> nhất?
+__label__show	bài hay nhất của <name>
+__label__show	các bài tệ nhất của <name>
+__label__show	cho mình danh sách các bài hay nhất của <name> đi bot
+__label__show	top 10 bài của <name>
+__label__show	<name> là ai ?
+__label__show	<name> là ai hả bot ?
+__label__show	cho mình xem thông tin của <name>
+__label__show	những bài hát hay của <name>
+__label__show	cho xem lời bài này đi
+__label__show	cho mình xem lời bài hát
+__label__show	lyric bot ơi
+__label__show	ca sĩ <name> có bài gì <property> hả bot?
+__label__show	lời bài hát
+__label__show	lời bài hát <title>
+__label__show	cho xem lời bài <title> đi
+__label__show	cho xem lời
+__label__show	bạn biết <name> là ai không ?
+__label__show	cho mình xin ít thông tin của <name>
+__label__show	cho xem info về <name>
+__label__show	lời khó nghe quá
+__label__show	cho mình xem thông tin bài <title>
+__label__show	xin ít thông tin về bài <title> nào
+__label__show	cho mình xin info bài hát đó
+__label__show	cho xem thông tin bài hát đó
+__label__show	cho xem thông tin bài hát <title> với
+__label__show	nhóm đó có bài hát gì nổi bật ?
+__label__show	ca sĩ đó có những bài hát nào thế ?
+__label__show	danh sách các bài hát của nhạc sĩ đó
+__label__show	top 5 các bài hát của nhạc sĩ đó
+__label__show	ca sĩ ấy có bài gì hay
+__label__show	nhạc sĩ ấy có bài gì hay
+__label__show	<name> hát bài gì thế ?
+__label__show	bài gì đây
+__label__show	bài gì thế này
+__label__show	có bài gì hay không cậu
+__label__show	dạo này có bài gì hay
+__label__show	lời khó nghe quá bot ơi
+__label__show	thông tin bài hát <title>
+__label__show	xem thông tin bài hát
+__label__show	ca sĩ <name> có những bài hát nào
+__label__show	những bài hát của <name>
+__label__show	bài hát do <name> sáng tác
+__label__show	danh sách bài hát của <name>
+__label__show	cho mình xem lời được không
+__label__show	lời bài hát
+__label__other	sáng tác được đó
+__label__other	chào máy bài hát
+__label__other	làm bài tập đi bạn
+__label__other	bài đỉnh đấy
+__label__other	bài hát rất hay
+__label__other	cảm ơn vì bài hát
+__label__other	ừ bài này hay đấy
+__label__other	bài đó hay đấy
+__label__other	bài này được đấy bạn
+__label__other	bài hát được đó bạn
+__label__other	bài gì cũng được hả ?
+__label__other	bài này nghe hay phết nhỉ
+__label__other	bài đó đỉnh đấy
+__label__other	bài nghe hay phết
+__label__other	bài hát hay thế
+__label__other	bài này nghe hay phết nhở
+__label__other	ca khúc này nghe thích đó
+__label__other	bài ổn đấy bot
+__label__other	nghe khá là ok đấy
+__label__other	nhạc hay quá bot ơi
+__label__other	mình thích bài hát này
+__label__other	nghe đỉnh đấy bot ơi
+__label__other	đúng bài mình thích luôn
+__label__other	nghe chất phết
+__label__other	cậu chọn bài được đấy
+__label__other	cậu chọn bài chuẩn đấy
+__label__other	bài này nghe hay thế
+__label__other	sáng tác quá hay luôn
+__label__other	lời nghe chất quá
+__label__other	giai điệu siêu bắt tai
+__label__other	rất thích ca khúc này
+__label__other	rất chi là thích bài hát này
+__label__other	làm bài thể dục đi
+__label__other	sáng tác được đó
+__label__other	chào máy bài hát
+__label__other	làm bài tập đi bạn
+__label__other	bài đỉnh đấy
+__label__other	bài hát rất hay
+__label__other	cảm ơn vì bài hát
+__label__other	ừ bài này hay đấy
