@@ -78,5 +78,6 @@ def extract_intent_entities(chatbot, statement):
     statement.extra_data = user_message
 
     statement.confidence=0.9
-    print(statement.text)
+    print("statement.text: "+statement.text)
+    print("statement.extra_data: "+str(statement.extra_data))
     return statement

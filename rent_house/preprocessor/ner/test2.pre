@@ -1,0 +1,615 @@
+thuê V 0
+nhà_trọ N 0
+đường N 0
+chùa_bộc V 0
+giá N 0
+bao_nhiêu P 0
+? F 0
+
+tôi P 0
+muốn V 0
+biết V 0
+giá N 0
+cho E 0
+thuê V 0
+rẻ A 0
+nhất R 0
+nhà_riêng N 0
+quận N 0
+Hoàng_Mai Np district
+
+Giá N 0
+biệt_thự N 0
+ở E 0
+quận N 0
+Cầu_Giấy Np 0
+bao_nhiêu V 0
+
+giá N 0
+bán V 0
+chung_cư N 0
+quận N 0
+Lĩnh_Nam Np district
+, F 0
+Hà_Nội Np province
+
+thông_báo V 0
+khi N 0
+có V 0
+căn_hộ N 0
+bán V 0
+giá N 0
+dưới A 0
+4 M maxPrice
+tỷ M unit
+diện_tích N 0
+trên A 0
+100 M minAcreage
+m2 Nu 0
+
+Mình P 0
+muốn V 0
+tìm V 0
+một M 0
+nhà_trọ N 0
+khu N 0
+cầu_giấy N 0
+
+địt V 0
+
+giá N 0
+nhà N 0
+mặt_phố V 0
+đường N 0
+nguyễn_chí_thanh V street
+
+giá N 0
+mặt_phố N 0
+Nguyễn_Chí_Thanh Np street
+
+tôi P 0
+quan_tâm V 0
+đường N 0
+Tây_Sơn Np street
+, F 0
+Đống_Đa Np district
+
+Giá N 0
+chung_cư N 0
+mulberry V project
+bao_nhiêu N 0
+
+Nhà N 0
+ở E 0
+hoàng_quốc_viêt Np 0
+
+t N 0
+muốn V 0
+hỏi V 0
+giá N 0
+nhà N 0
+
+giá N 0
+bán V 0
+căn_hộ N 0
+tại E 0
+quận N 0
+hai_bà_trưng N 0
+bao_nhiêu P 0
+? F 0
+
+bot V 0
+ga N 0
+thế P 0
+= F 0
+) F 0
+) F 0
+
+fuc N 0
+k_you V 0
+
+chung_cư N 0
+Bắc_Từ_Liêm Np 0
+
+giá N 0
+nhà N 0
+mặt_phố Nc 0
+đường N 0
+Đại_Cồ_Việt Np street
+, F 0
+Hà_Nội Np province
+
+có V 0
+chức_năng N 0
+gì A 0
+
+Quận N 0
+tây_hồ N district
+
+tôi P 0
+đẹp_trai A 0
+không R 0
+
+căn_hộ N 0
+bán V 0
+giá N 0
+trên A 0
+3 M minPrice
+tỷ N unit
+
+giá N 0
+nhà_chung_cư N 0
+quận N 0
+Nam_Từ_Liêm Np 0
+
+tìm V 0
+nhà N 0
+mặt_phố N 0
+cho V 0
+thuê V 0
+đường N 0
+Huỳnh_Tấn_Phát Np street
+
+biệt_thự N 0
+5 M bedRoom
+phòng N 0
+ngủ V 0
+hồ_chí_minh A 0
+
+Giá N 0
+đất N 0
+quận N 0
+Hoàng_Mai Np district
+Hà_Nội Np province
+
+Kaengnam Np project
+
+cảm_ơn V 0
+Lucy Np 0
+, F 0
+thông_tin N 0
+rất R 0
+hữu_ích A 0
+
+nhà_riêng N 0
+
+giá N 0
+bán V 0
+tại E 0
+Royal_City Np project
+
+thông_báo V 0
+cho E 0
+mình P 0
+khi N 0
+có V 0
+nhà_riêng N 0
+trên A 0
+1 M minPrice
+tỷ M unit
+diện_tích N 0
+trên A 0
+80 M minAcreage
+m2 Nu 0
+tại E 0
+time_city N 0
+
+Gía N 0
+chung_cư N 0
+
+tìm V 0
+nhà_nghỉ N 0
+ở E 0
+trần_duy_hưng N street
+
+giá N 0
+nhà N 0
+mặt_phố Nc 0
+Đào_Tấn Np street
+, F 0
+Ba_Đình Np district
+
+giá N 0
+nhà N 0
+đường_Láng V 0
+, F 0
+Đống_Đa Np district
+
+t N 0
+muốn V 0
+tìm V 0
+nhà N 0
+
+giá N 0
+khu N 0
+Cầu_Giấy Np 0
+khoảng A 0
+bao P 0
+tiền N 0
+? F 0
+
+giá N 0
+chung_cư N 0
+linh_đàm V 0
+
+Tìm_hiểu V 0
+thêm V 0
+về E 0
+tính_năng N 0
+hỏi V 0
+giá N 0
+
+Giá N 0
+nhà N 0
+khu N 0
+Lê_Trọng_Tấn Np street
+thanh_xuân A district
+
+chung_cư N 0
+vinhomes V project
+
+biệt_thự N 0
+nam_thăng_long A 0
+
+theo_dõi V 0
+biệt_thự N 0
+rao V 0
+bán V 0
+khu_vực N 0
+quận_8 N 0
+, F 0
+Hồ_Chí_Minh Np province
+. F 0
+
+căn_hộ N 0
+2 M bedRoom
+pn N 0
+quận N 0
+hai_bà_trưng N 0
+
+chức_năng N 0
+theo_dõi V 0
+thị_trường N 0
+
+địa_chỉ N 0
+
+giá N 0
+nhà_riêng N 0
+tỉnh N 0
+Bắc_Giang Np province
+
+giá N 0
+phòng N 0
+thuê V 0
+sài_gòn Np province
+
+Giá N 0
+nhà_chung_cư N 0
+ở E 0
+Bắc_Ninh Np province
+
+Thanh_Trì Np district
+
+Giá N 0
+chung_cư N 0
+quận N 0
+Long_Biên Np district
+bao_nhiêu P 0
+? F 0
+
+giá N 0
+dưới A 0
+2 M maxPrice
+triệu_/_tháng N 0
+
+giá N 0
+căn_hộ N 0
+bán V 0
+tại E 0
+quận N 0
+hai_bà_trưng N 0
+bao_nhiêu P 0
+? F 0
+
+nói V 0
+gì P 0
+coi V 0
+
+tìm_hiểu V 0
+về E 0
+tính_năng N 0
+tra_cứu V 0
+
+theo_dõi V 0
+giao_dịch V 0
+
+nhà_riêng N 0
+huyện N 0
+Sóc_Sơn Np district
+
+giá N 0
+nhà N 0
+đường_Láng Nc 0
+Cầu_Giấy Np district
+
+giá N 0
+nhà N 0
+ở E 0
+quận N 0
+Hoàn_Kiếm Np district
+, F 0
+Hà_Nôi Np province
+
+tắt V 0
+thông_báo V 0
+
+tìm V 0
+nhà N 0
+gần A 0
+hà_nội Np 0
+
+tôi P 0
+muốn V 0
+biết V 0
+giá N 0
+khu_vực N 0
+gầm V 0
+cầu_vượt N 0
+mai_dịch V 0
+
+giá N 0
+phòng N 0
+thuê V 0
+sài_gìn N province
+
+nhà N 0
+
+test N 0
+
+có V 0
+nhà_riêng N 0
+cho E 0
+thuê V 0
+quận N 0
+Cầu_Giấy Np 0
+không R 0
+? F 0
+
+Thôi T 0
+nghỉ V 0
+
+alerting N 0
+của E 0
+anh N 0
+làm V 0
+rối_rắm A 0
+quá R 0
+
+Giao_diện N 0
+ntn N 0
+mà C 0
+đc N 0
+? F 0
+
+nhà_sàn N 0
+
+Giá N 0
+nhà N 0
+Hồ_chí_minh Np province
+
+tôi P 0
+muốn V 0
+biết V 0
+giá N 0
+nhà N 0
+mặt_phố N 0
+cao A 0
+nhất A 0
+trên E 0
+đường N 0
+Thanh_Nhàn Np street
+, F 0
+quận N 0
+Hai_Bà_Trưng_tháng N 0
+8 M 0
+
+tìm V 0
+nhà_riêng N 0
+giá N 0
+trên A 0
+1 M minPrice
+tỷ N unit
+tại E 0
+hà_nội N province
+] F 0
+
+Giúp V 0
+tôi P 0
+nhé V 0
+
+theo_dõi V 0
+căn_hộ N 0
+diện_tích N 0
+trên E 0
+70 M minAcreage
+m2 Nu 0
+quận N 0
+thanh_xuân A district
+
+nhà N 0
+mặt_phố N 0
+Thanh_Nhàn Np street
+
+phân_tích N 0
+biến_động V 0
+giá N 0
+khu N 0
+hoàng_mai V district
+
+nhắn V 0
+lâu_thế N 0
+
+hello N 0
+pika_long V 0
+
+giá N 0
+nhà_trọ N 0
+hai_bà_trưng E 0
+tầm N 0
+bao_nhiêu P 0
+mày P 0
+? F 0
+
+giá N 0
+nhà N 0
+ở E 0
+Đống_Đa Np district
+
+gía N 0
+thuê V 0
+kho N 0
+hàng N 0
+Hà_Nội Np province
+
+giá N 0
+nhà N 0
+đường N 0
+đội_cấn N 0
+, F 0
+ba_đình N district
+
+tìm_hiểu V 0
+thêm V 0
+tính_năng N 0
+tra_cứu V 0
+
+kiểu N 0
+căn_hộ N 0
+chung_cư N 0
+
+gía V 0
+trên E 0
+dưới N 0
+7 M minPrice
+tỷ N unit
+
+tìm_hiểu V 0
+về E 0
+tính_năng N 0
+tra_cứu V 0
+giá N 0
+
+gía_nhà N 0
+chương_mỹ V 0
+
+Giá N 0
+chung_cư N 0
+tại E 0
+Cầu_Giấy Np 0
+giá N 0
+bao_nhiêu N 0
+
+địa_chỉ N 0
+dương_quảng_hàm N 0
+
+theo_dõi V 0
+phường N 0
+Bách_Khoa Np ward
+
+chung_cư N 0
+quận_12 V 0
+giá N 0
+dưới A 0
+5 M maxPrice
+tỷ N unit
+
+b N 0
+tên N 0
+gì N 0
+
+người N 0
+đừng R 0
+lặng_im V 0
+đến E 0
+thế N 0
+
+em N 0
+ơiii V 0
+
+khó A 0
+sử_dụng V 0
+thế N 0
+
+Chung_cư N 0
+Five_Star Np project
+giá N 0
+bao_nhiêu N 0
+
+gía N 0
+nhà N 0
+quận N 0
+hoàng_mai N 0
+hà_nội Np province
+
+Thế_thì N 0
+không R 0
+có V 0
+thật R 0
+rồi R 0
+
+Giâ Np 0
+nhà_chung_cư V 0
+ở E 0
+Mỹ_Đình Np district
+bao_nhiêu Np 0
+
+giá N 0
+chung_cư N 0
+FiveStar V project
+
+thuê V 0
+văn_phòng N 0
+Cầu_Giấy Np 0
+, F 0
+Hà_Nội Np province
+, F 0
+giá N 0
+bao_nhiêu P 0
+? F 0
+
+tớ N 0
+chỉ R 0
+muốn V 0
+nhắn_tin V 0
+trò_chuyện V 0
+với E 0
+c N 0
+một_tí N 0
+thôi V 0
+
+tìm_hiểu V 0
+về E 0
+tra_cứu N 0
+giá N 0
+nhà_đất N 0
+
+tôi P 0
+đang R 0
+cần V 0
+tìm V 0
+căn_hộ N 0
+chung_cư N 0
+1 M bedRoom
+phòng N 0
+ngủ V 0
+giá N 0
+khoảng A 0
+1,5 M maxPrice
+tỷ N unit
+đồng N 0
+
+giá N 0
+nhà_riêng N 0
+tại E 0
+hà_nội Np province
+

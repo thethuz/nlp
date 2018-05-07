@@ -33,3 +33,13 @@ __label__greeting ê bot
 __label__greeting ahihi đồ ngốc
 __label__greeting stupid bot
 __label__greeting bạn thông minh quá cơ ý
+__label__house Nhà trọ dưới 3 triệu, cho người đi làm, khu vực Hà Đông
+__label__house Tìm nhà trọ 1 người dưới 1.5 triệu, khép kín, gần ĐH Công Nghiệp
+__label__house Nhà trọ 1 người, không chung chủ, giờ giấc thoải mái, dưới 1.5 triệu, gần ĐH Thương Mại
+__label__house Nhà trọ trên 25 m2, giờ giấc thoải mái, khép kín, có điều hòa, khu vực đường Giải Phóng
+__label__house Nhà trọ giờ giấc thoải mái, trên 25 m2, đầy đủ tiện nghi, khu vực đường Trương Định
+__label__house Em cần tìm phòng trọ ở 1 mình dứoi 2tr, sạch sẽ an ninh tốt, chung chủ cũng ok.
+__label__house Em cần tìm 1 phòng trọ khép kín khu vực Giải Phóng, Trường Chinh, cho 1 nữ ở, tầm giá 2tr/tháng.
+__label__house E muốn tìm phòng trọ khép kín cho 1 nữ ở tầm <1tr5 quanh lê thanh nghị, phương mai, trần đại nghĩa.
+__label__house Cần tìm trọ 1 người phòng dưới 1tr5, nhỏ cũng được nhưng mà sạch sẽ, vệ sinh khép kín nhà thoáng mát xung quanh Xã Đàn.
+__label__house Mình cần tìm phòng khu vực minh khai, bạch mai, trần khát chân, trương định và các khu vực gần kề giá tầm 1t8 trở xuống, không chung chủ, giờ giấc thoải mái.

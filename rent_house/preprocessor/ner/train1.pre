@@ -26,8 +26,6 @@ nhà N 0
 đường N 0
 Thành_bao_nhiêu N 0
 
-really N 0
-
 Giá N 0
 phường N 0
 Trung_Hòa Np 0
@@ -42,12 +40,6 @@ tháng N 0
 phường N 0
 Bách_Khoa Np 0
 
-theo_dõi V 0
-đường N 0
-Lạc_Long_Quân Np 0
-, F 0
-Cầu_Giấy Np 0
-
 Giá N 0
 nhà N 0
 quận N 0
@@ -56,8 +48,9 @@ quận N 0
 Hồ_Chí_minh V 0
 bao_nhiêu N 0
 
+tìm V 0
 nhà_trọ N 0
-ba_đình V 0
+ba_đình N 0
 
 giá N 0
 bán V 0
@@ -65,7 +58,10 @@ chung_cư N 0
 HH4 Ny 0
 bao_nhiêu V 0
 
-Chung_cư_Giải_Phóng N 0
+Tìm V 0
+mua V 0
+chung_cư N 0
+Giải_Phóng Np 0
 
 nhà N 0
 ở E 0
@@ -74,34 +70,10 @@ giá N 0
 bao_nhiêu P 0
 / F 0
 
-Giá N 0
-nhà N 0
-ở V 0
-đâu P 0
-rẻ A 0
-nhất R 0
-? F 0
-
-giá N 0
-chung_cư N 0
-tại E 0
-timecity N 0
-là V 0
-bao_nhiêu P 0
-? F 0
-
-Tôi P 0
-cần V 0
-xem V 0
-giá N 0
-
 gía V 0
 đất N 0
 Chung_cư N 0
 Nam_đô V 0
-
-lâu A 0
-quá R 0
 
 căn_hộ N 0
 2 M 0
@@ -112,19 +84,6 @@ Lavita_Garden Np 0
 quận N 0
 Thủ_Đức Np 0
 
-Hello_ku N 0
-
-Bạn N 0
-có_thể R 0
-giúp V 0
-gì P 0
-cho E 0
-tôi P 0
-? F 0
-
-hú V 0
-la N 0
-, F 0
 tìm V 0
 nhà N 0
 ở E 0
@@ -141,16 +100,6 @@ Times Np 0
 City Np 0
 giá N 0
 bao_nhiêu N 0
-
-theo_dõi V 0
-nhà_riêng N 0
-giá N 0
-dưới A 0
-3 M 0
-tỉ M 0
-quận N 0
-hai M 0
-bà_trưng N 0
 
 tôi P 0
 cần V 0
@@ -179,21 +128,6 @@ triệu M 0
 trở V 0
 xuống V 0
 
-ánh N 0
-là V 0
-ai N 0
-
-nhà N 0
-ở E 0
-Hoàng_Mai Np 0
-, F 0
-có V 0
-đắt A 0
-không R 0
-? F 0
-
-Ặc Np 0
-
 căn_hộ N 0
 4 M 0
 pn N 0
@@ -210,13 +144,9 @@ bao V 0
 tiền N 0
 
 nhà_riêng N 0
-bán V 0
+cho V 0
+thuê V 0
 quận_tây_hồ N 0
-
-giá N 0
-nhà N 0
-tại E 0
-Hà_Nội Np 0
 
 giá N 0
 căn_hộ N 0
@@ -240,18 +170,6 @@ nhà N 0
 khu_vực N 0
 Trường_Chinh Np 0
 
-fuck_u N 0
-
-căn_hộ N 0
-3 M 0
-pn N 0
-dưới A 0
-3 M 0
-tỷ M 0
-quận N 0
-cầu N 0
-giấy N 0
-
 giá N 0
 nhà N 0
 biệt_thự V 0
@@ -259,11 +177,6 @@ biệt_thự V 0
 nguyễn_văn_bứa A 0
 , F 0
 hcm N 0
-
-mua V 0
-nhà N 0
-tại E 0
-Hà_Đông Np 0
 
 cho E 0
 mình P 0
@@ -276,9 +189,7 @@ Từ_Liêm Np 0
 , F 0
 Hà_Nội Np 0
 
-help N 0
-
-ìm N 0
+Tìm V 0
 nhà_riêng N 0
 giá N 0
 từ E 0
@@ -303,26 +214,6 @@ giá N 0
 nhà N 0
 quận_hoàn_kiếm V 0
 
-cập_nhật V 0
-các L 0
-tin N 0
-rao V 0
-bán V 0
-chung_cư N 0
-dự_án N 0
-Royal_City Np 0
-, F 0
-3 M 0
-phòng N 0
-ngủ V 0
-, F 0
-giá N 0
-max N 0
-7 M 0
-tỷ N 0
-
-t N 0
-
 giá N 0
 cho V 0
 thuê V 0
@@ -339,25 +230,6 @@ khu_vực N 0
 bách_khoa V 0
 ạ N 0
 
-thông_báo V 0
-khi N 0
-có V 0
-nhà_riêng N 0
-bán V 0
-giá N 0
-dưới E 0
-6 M 0
-tỷ N 0
-
-nhà N 0
-mặt_phố N 0
-bán V 0
-
-chỗ N 0
-nào P 0
-cao A 0
-nhất A 0
-
 tôi P 0
 muốn V 0
 biết V 0
@@ -368,9 +240,6 @@ cầu_vượt N 0
 Mai_Dịch Np 0
 Cầu Np 0
 GIấy_Hà_Nội Np 0
-
-hello N 0
-guy V 0
 
 gía_chung_cư N 0
 quận N 0
@@ -417,9 +286,6 @@ HUD Ny 0
 3 M 0
 bao_nhiêu N 0
 
-trợ N 0
-guips V 0
-
 nhà N 0
 ở E 0
 đâu P 0
@@ -432,7 +298,7 @@ nhà N 0
 linh N 0
 đàm N 0
 
-Cho E 0
+Cần V 0
 thuê V 0
 nhà_royal N 0
 
@@ -452,25 +318,6 @@ royal N 0
 city V 0
 hà_nội Np 0
 
-thaot N 0
-
-theo_dõi V 0
-nhà N 0
-mặt_phố N 0
-quận_hoàng_mai A 0
-
-Cụ N 0
-ơi_tớ A 0
-hỏi V 0
-giá N 0
-nhà_riêng N 0
-bách_khoa V 0
-giờ N 0
-bao_nhiêu P 0
-? F 0
-: F 0
-) F 0
-
 Giá N 0
 nhà N 0
 ở E 0
@@ -479,53 +326,9 @@ minh_khai Np 0
 tìm V 0
 nhà_chung_cư N 0
 
-hey N 0
-, F 0
-tôi P 0
-muốn V 0
-thuê V 0
-phòng N 0
-trọ V 0
-giá N 0
-rẻ A 0
-ở E 0
-Bắc_Từ_Liêm Np 0
-, F 0
-Hà_Nội Np 0
-, F 0
-có V 0
-tin N 0
-đăng V 0
-mới R 0
-bạn N 0
-có_thể A 0
-gửi V 0
-tới E 0
-cho E 0
-tôi P 0
-được V 0
-không R 0
-? F 0
-
 Căn_hộ N 0
 dự_án N 0
 Times_City_bao_nhiêu V 0
-
-tìm V 0
-nhà_riêng N 0
-quận N 0
-bắc N 0
-từ E 0
-liêm N 0
-hà_nội N 0
-giá N 0
-1.400 M 0
-tỷ M 0
-~ F 0
-27.030 M 0
-triệu M 0
-/ F 0
-m2 Nu 0
 
 giá N 0
 chung_cư N 0
@@ -537,26 +340,6 @@ Giá N 0
 chung_cư N 0
 linh V 0
 đàm_bao_nhiêu N 0
-
-phường_yên V 0
-nghĩa N 0
-
-tìm V 0
-mua V 0
-đất N 0
-xây V 0
-xưởng N 0
-Hải_Phòng Np 0
-
-tìm V 0
-căn_hộ N 0
-quận N 0
-cầu N 0
-giấy N 0
-giá N 0
-dưới A 0
-3 M 0
-tỷ N 0
 
 giá N 0
 nhà N 0
@@ -571,41 +354,9 @@ nhà_riêng N 0
 bán V 0
 quận_tây_hồ N 0
 
-Học V 0
-ơi T 0
-: F 0
-v N 0
-
-Căn_hộ N 0
-2 M 0
-phòng N 0
-ngủ V 0
-ở E 0
-Linh_Đàm Np 0
-
-thông_báo V 0
-khi N 0
-có V 0
-căn_hộ N 0
-bán V 0
-giá N 0
-dưới A 0
-5 M 0
-tỷ M 0
-diện_tích N 0
-trên A 0
-100 M 0
-m2 Nu 0
-
 giá N 0
 nhà_cầu V 0
 giấy N 0
-
-Cho E 0
-thuê V 0
-nhà N 0
-royal N 0
-city A 0
 
 Giá N 0
 đất N 0
@@ -613,12 +364,6 @@ Giá N 0
 khu N 0
 bách_khoa N 0
 ? F 0
-
-Tìm V 0
-nhà N 0
-mặt_phố N 0
-quận N 0
-Cầu_Giấy Np 0
 
 tìm V 0
 nhà_trọ N 0
@@ -635,26 +380,6 @@ khu_vực N 0
 quận N 0
 Hai_Bà_Trưng Np 0
 
-Tìm V 0
-nhà N 0
-dưới E 0
-2 M 0
-tỷ N 0
-đường N 0
-Minh_Khai Np 0
-
-nhà N 0
-mặt_phố Nc 0
-Đào_Tấn Np 0
-, F 0
-Ba_Đình Np 0
-
-căn_hộ N 0
-4 M 0
-pn Nu 0
-đường N 0
-bạch_mai V 0
-
 Giá N 0
 bán V 0
 nhà_riêng N 0
@@ -670,10 +395,6 @@ giá N 0
 bao_nhiêu P 0
 ? F 0
 
-ban N 0
-lam_duoc N 0
-gi A 0
-
 Giá N 0
 nhà N 0
 cho V 0
@@ -682,8 +403,6 @@ thuê V 0
 thanh_nhàn A 0
 , F 0
 hbt N 0
-
-Gía_nhà_Newyork N 0
 
 tìm V 0
 văn_phòng N 0
@@ -721,40 +440,12 @@ Giá N 0
 trung_cư N 0
 Ba_Đình Np 0
 
-mày P 0
-nói V 0
-tào_lao N 0
-à A 0
-
-thông_báo V 0
-khi N 0
-có V 0
-căn Nc 0
-bán V 0
-giá N 0
-dươi N 0
-5 M 0
-tỷ N 0
-
-theo_dõi V 0
-đường N 0
-tạ V 0
-quang_bửu N 0
-, F 0
-bách_khoa N 0
-
 khu_đô_thị N 0
 Trung_Hòa_Nhân_Chính Np 0
 bán V 0
 căn_hộ_giá N 0
 bao_nhiêu P 0
 ? F 0
-
-chung_cư N 0
-cầu N 0
-giấy N 0
-
-ab N 0
 
 giá N 0
 nhà N 0
@@ -778,54 +469,6 @@ tại E 0
 đường N 0
 Hoàng_Quốc_Việt Np 0
 
-theo_dõi V 0
-nhà_riêng N 0
-giá N 0
-từ E 0
-1 M 0
-đến E 0
-2 M 0
-tỷ N 0
-, F 0
-diện_tích N 0
-trên A 0
-40 M 0
-m2 Nu 0
-tại E 0
-Hà_Đông Np 0
-, F 0
-Hà_Nội Np 0
-
-3 M 0
-
-giá N 0
-căn_hộ N 0
-khu_đô_thị V 0
-Trung_Hòa_Nhân_Chính Np 0
-
-gía V 0
-nhà N 0
-ở E 0
-Hông_Mai Np 0
-, F 0
-Hà_Nội Np 0
-
-xo A 0
-
-Chatbot Np 0
-vui_tính A 0
-lắm R 0
-: F 0
-) F 0
-) F 0
-
-theo_dõi V 0
-đường N 0
-định V 0
-công N 0
-, F 0
-hoàng_mai N 0
-
 Giá N 0
 chung_cư N 0
 hồ_tây V 0
@@ -843,12 +486,6 @@ Mỹ_Đình Np 0
 , F 0
 Hà_Nội Np 0
 
-Thank Np 0
-you V 0
-: F 0
-) F 0
-) F 0
-
 nhà_riêng N 0
 quận N 0
 Đống_Đa Np 0
@@ -857,12 +494,6 @@ giá N 0
 bao_nhiêu P 0
 ? F 0
 
-bot N 0
-trash V 0
-vc N 0
-
-Hh Np 0
-
 giá N 0
 nhà N 0
 đường N 0
@@ -870,12 +501,6 @@ Nguyễn_Văn_Trỗi Np 0
 , F 0
 quận N 0
 Từ_Liêm Np 0
-
-gía V 0
-nhà N 0
-rẻ A 0
-nhất R 0
-hà_nội A 0
 
 Thuê V 0
 nhà N 0
@@ -891,16 +516,6 @@ nhà N 0
 Láng Np 0
 , F 0
 Hà_Nội Np 0
-
-Bạn N 0
-có_thể R 0
-giúp V 0
-gì P 0
-cho E 0
-mình P 0
-? F 0
-
-Da_nang N 0
 
 giá N 0
 nhà_riêng N 0
@@ -922,15 +537,6 @@ Hai_Bà_Trưng Np 0
 bao_nhiêu P 0
 ? F 0
 
-Chắc A 0
-không R 0
-có V 0
-quận N 0
-125 M 0
-đâu P 0
-nhỉ T 0
-? F 0
-
 tìm V 0
 văn_phòng N 0
 cho V 0
@@ -950,14 +556,6 @@ vị N 0
 xuyên V 0
 Nam_Định Np 0
 
-Giá N 0
-ban N 0
-căn_hộ N 0
-60 M 0
-m2 Nu 0
-tại E 0
-Times_City Np 0
-
 giá N 0
 nhà_trọ N 0
 cho V 0
@@ -975,13 +573,6 @@ cấn V 0
 bao_nhiêu P 0
 ? F 0
 
-căn_hộ N 0
-dưới A 0
-4 M 0
-tỷ N 0
-ở E 0
-hà_nội Np 0
-
 giá N 0
 chung_cư N 0
 quận N 0
@@ -989,62 +580,6 @@ Hoàng_Mai Np 0
 là V 0
 bao_nhiêu P 0
 ? F 0
-
-vâng N 0
-anh N 0
-, F 0
-nhà N 0
-đẹp A 0
-quá R 0
-, F 0
-em N 0
-quyết V 0
-mua V 0
-căn Nc 0
-này N 0
-
-chào V 0
-m N 0
-, F 0
-mình P 0
-lại R 0
-gặp V 0
-nhau N 0
-r A 0
-
-tôi P 0
-muốn V 0
-tìm V 0
-nhà N 0
-thì C 0
-tìm V 0
-ở E 0
-đâu N 0
-
-Tớ Np 0
-muốn V 0
-hỏi V 0
-giá N 0
-bán V 0
-nhà N 0
-tại E 0
-Bách_Khoa Np 0
-
-ơ N 0
-thấy V 0
-ghi V 0
-đường N 0
-: F 0
-phố N 0
-huế N 0
-rồi R 0
-mà C 0
-
-giá N 0
-nhà_chung_cư N 0
-Linh Np 0
-Đàm_bao V 0
-nhiều A 0
 
 cầu N 0
 giấy N 0
@@ -1054,8 +589,6 @@ Giá N 0
 nhà N 0
 ở E 0
 Nguyễn_Đổng_Chi Np 0
-
-haiz N 0
 
 giá N 0
 nhà N 0
@@ -1072,21 +605,6 @@ riverside N 0
 giá N 0
 bao_nhiêu P 0
 ? F 0
-
-bạn N 0
-bao_nhiêu P 0
-tuôit N 0
-
-chung_cư N 0
-quận N 0
-9 M 0
-bán V 0
-giá N 0
-dưới A 0
-2 M 0
-tỷ N 0
-tại E 0
-hà_nội Np 0
 
 Giá N 0
 thuê V 0
@@ -1105,77 +623,10 @@ Giá N 0
 đường N 0
 Xuân_Thủy Np 0
 
-tìm_kiếm V 0
-căn_hộ N 0
-đang R 0
-bán V 0
-tại E 0
-quận N 0
-Thủ_Đức Np 0
-có V 0
-2 M 0
-pn N 0
-, F 0
-diện_tích N 0
-trên E 0
-75 M 0
-m2 Nu 0
-
 giá N 0
 nhà_trọ N 0
 quận N 0
 Đống_Đa Np 0
-
-vui A 0
-nhỉ A 0
-
-tìm V 0
-nhà_riêng N 0
-đường N 0
-Đội Np 0
-Cấn Np 0
-, F 0
-Ba_Đình Np 0
-
-giá N 0
-biệt_thự N 0
-ecopark V 0
-
-thế P 0
-ở E 0
-Bà_Triệu Np 0
-, F 0
-hà_nội N 0
-, F 0
-không R 0
-có V 0
-tin_đăng N 0
-nào P 0
-à T 0
-- F 0
-_ F 0
-- F 0
-
-giá N 0
-cao A 0
-nhất R 0
-royal N 0
-city A 0
-
-giá N 0
-nhà N 0
-mặt_phố Nc 0
-Lê_Thanh_Nghị Np 0
-, F 0
-hbt N 0
-
-Theo_dõi V 0
-dư A 0
-án N 0
-Time_City Np 0
-
-khu_đô_thị N 0
-xa_la V 0
 
 Tôi P 0
 hỏi V 0
@@ -1186,17 +637,1179 @@ kính V 0
 cầu N 0
 giấy N 0
 
-House Np 0
+tìm V 0
+nhà_trọ N 0
+khu_vực N 0
+bach A 0
+mai N 0
+có_giá N 0
+dưới A 0
+2 M 0
+triệu N 0
 
-Làm V 0
-thế_nào P 0
+nhà_trọ N 0
+cho V 0
+thuê V 0
+khu_vực N 0
+Bách_Khoa Np 0
+, F 0
+Hà_Nội Np 0
+
+nhà_trọ N 0
+cho V 0
+thuê V 0
+khu_vực N 0
+Bách_Khoa Np 0
+, F 0
+Hà_Nội Np 0
+giá N 0
+bao_nhiêu P 0
+? F 0
+
+tìm V 0
+nhà_trọ N 0
+cho V 0
+thuê V 0
+khu N 0
+Bách_Khoa Np 0
+, F 0
+Hà_Nội Np 0
+
+giá N 0
+nhà_trọ N 0
+cho V 0
+thuê V 0
+phường N 0
+bách_khoa V 0
+tháng N 0
+1 M 0
+
+nhà_trọ N 0
+hai M 0
+bà_trưng N 0
+
+cho V 0
+thuê V 0
+phòng N 0
+trọ V 0
+Bách_khoa A 0
+
+Tôi P 0
+muốn V 0
+tìm V 0
+phòng N 0
+trọ V 0
+quanh N 0
+khu_vực N 0
+Tạ_Quang_Bửu Np 0
+
+phòng N 0
+trọ V 0
+cho V 0
+thuê V 0
+
+giá N 0
+nhà_trọ N 0
+cho E 0
+thuê V 0
+quận N 0
+Hai_Bà_Trưng Np 0
+
+thuê V 0
+phòng N 0
+trọ V 0
+ý N 0
+
+giá N 0
+phòng N 0
+trọ V 0
+ở E 0
+Hoàng_Mai Np 0
+
+thuê V 0
+nhà_trọ N 0
+đường N 0
+chùa N 0
+bộc V 0
+giá N 0
+bao_nhiêu P 0
+? F 0
+
+nhà_trọ N 0
+cho V 0
+thuê V 0
+dưới A 0
+2 M 0
+triệu M 0
+quận N 0
+hai M 0
+bà_trưng N 0
+
+cho V 0
+thuê V 0
+phòng N 0
+trọ V 0
+ở E 0
+Bách_Khoa Np 0
+
+nhà_trọ N 0
+gần A 0
+nhiều A 0
+hàng N 0
+ăn V 0
+khu N 0
+kinh_tế N 0
+quốc_dân N 0
+
+nhà_trọ N 0
+gần A 0
+bách_khoa N 0
+giá N 0
+1 M 0
+triệu M 0
+/ F 0
+tháng N 0
+
+tìm V 0
+nhà_trọ N 0
+ở E 0
+trần_duy_hưng N 0
+, F 0
+hà_nội Np 0
+
+nhà_trọ N 0
+linh A 0
+đàm N 0
+
+Tôi P 0
+muốn V 0
+bạn N 0
+giúp V 0
+tôi P 0
+tìm V 0
+phòng N 0
+trọ V 0
+có V 0
+giá N 0
+nhỏ A 0
+hơn A 0
+1,5 M 0
+triệu N 0
+
+phòng N 0
+trọ V 0
+phố N 0
+Quần_Ngựa Np 0
+, F 0
+Ba_Đình Np 0
+
+timg V 0
+nhà_trọ N 0
+gần A 0
+đại_học N 0
+bách_khoa N 0
+
+phòng N 0
+trọ V 0
+kinh_tế N 0
+quốc_dân N 0
+
+tôi P 0
+muốn V 0
+cập_nhật V 0
+tin N 0
+đăng V 0
+phòng N 0
+trọ V 0
+cho V 0
+thuê V 0
+bên N 0
+Bắc_Từ_Liêm Np 0
+, F 0
+giá N 0
+rẻ A 0
+. F 0
+
+nhà_trọ N 0
+cho V 0
+thuê V 0
+dưới A 0
+1.5 M 0
+triệu M 0
+phường N 0
+bách_khoa V 0
+
+nhà_trọ N 0
+dưới A 0
+1.5 M 0
+triệu M 0
+phường N 0
+bách_khoa V 0
+
+tìm V 0
+nhà_trọ N 0
+khu_vực N 0
+mễ_trì A 0
+
+hi N 0
+
+xin V 0
+chào V 0
+
+help N 0
+
+cíu N 0
+
+cứu V 0
+
+em N 0
+ei V 0
+
+hihi N 0
+
+ahihi N 0
+
+bot N 0
+là V 0
+đồ N 0
+ngốc A 0
+
+bot V 0
+thật R 0
+thông_minh A 0
+
+bot N 0
+ngu A 0
+quá R 0
+đi V 0
+
+bạn N 0
+làm V 0
+được R 0
+gì V 0
+
+chào V 0
+bạn N 0
+
+bạn N 0
+ơi A 0
+
+tôi P 0
+không R 0
+hiểu V 0
+phải V 0
+làm V 0
+gì N 0
+
+hello N 0
+
+ban N 0
+lam_duoc N 0
+gi A 0
+
+mày P 0
+nói V 0
+tào_lao N 0
+à A 0
+
+anh N 0
+nói V 0
+tào_lao_thế A 0
+
+bot N 0
+vui_tính A 0
+lắm R 0
+
+Bạn N 0
+có_thể R 0
+giúp V 0
+gì P 0
+cho E 0
+mình P 0
+? F 0
+
+Xem V 0
+infinity N 0
+war A 0
+chưa R 0
+? F 0
+
+hai M 0
+
+nói V 0
+thế P 0
+có V 0
+vui A 0
+không R 0
+? F 0
+
+làm V 0
+thế_nào X 0
 để E 0
-giám_sát V 0
-theo_dõi V 0
-thị_trường N 0
+có V 0
+bạn N 0
+gái N 0
+
+Nhà_trọ N 0
+khép_kín A 0
+dưới A 0
+2 M 0
+triệu M 0
+khu_vực N 0
+ĐH Ny 0
+Bách_Khoa Np 0
+
+Nhà_trọ N 0
+không R 0
+chung A 0
+chủ N 0
+, F 0
+khép_kín A 0
+, F 0
+dưới A 0
+2 M 0
+triệu M 0
+khu_vực N 0
+ĐH Ny 0
+Mỏ Np 0
+
+Nhà_trọ N 0
+khép_kín A 0
+, F 0
+dưới A 0
+1.5 M 0
+triệu M 0
+khu_vực N 0
+ĐH Ny 0
+Xây_Dựng Np 0
+
+Nhà_nghỉ N 0
+bình_dân N 0
+ở E 0
+Phố_Vọng Np 0
+
+Nhà_trọ N 0
+sinh_viên N 0
+giá N 0
+rẻ A 0
+khu_vực N 0
+Hai_Bà_Trưng Np 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+
+Tìm V 0
+nhà_trọ N 0
+khép_kín V 0
+giá N 0
+rẻ A 0
+, F 0
+trên A 0
+20 M 0
+m2 Nu 0
+, F 0
+khu_vực N 0
+Cầu_Giấy Np 0
+
+Nhà_trọ N 0
+trên A 0
+20 M 0
+m2 Nu 0
+, F 0
+giá N 0
+dưới A 0
+2 M 0
+triệu M 0
+gần A 0
+trường N 0
+ĐH Ny 0
+Khoa_học Np 0
+tự_nhiên A 0
+
+Nhà_trọ N 0
+trên E 0
+15 M 0
+m2 Nu 0
+, F 0
+giá N 0
+dưới A 0
+2 M 0
+triệu M 0
+gần A 0
+trường N 0
+ĐH Ny 0
+Khoa_học N 0
+tự_nhiên A 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+
+Nhà_nghỉ N 0
+cao_cấp A 0
+đường N 0
+Bà_Triệu Np 0
+
+Tìm V 0
+nhà_trọ N 0
+khép_kín N 0
+, F 0
+trên E 0
+15 M 0
+m2 Nu 0
+, F 0
+gần A 0
+trường N 0
+Kinh_Tế Np 0
+, F 0
+giá N 0
+dưới A 0
+2 M 0
+triệu N 0
+
+Tìm V 0
+nhà_trọ N 0
+khép_kín N 0
+, F 0
+trên E 0
+15 M 0
+m2 Nu 0
+, F 0
+khu_vực N 0
+đường N 0
+Láng Np 0
+, F 0
+giá N 0
+dưới A 0
+2 M 0
+triệu M 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+
+Nhà_trọ N 0
+sinh_viên N 0
+giá N 0
+rẻ A 0
+, F 0
+khép_kín A 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+, F 0
+dưới A 0
+1.5 M 0
+triệu M 0
+
+Nhà_trọ N 0
+sinh_viên N 0
+khép_kín A 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+, F 0
+dưới A 0
+1.5 M 0
+triệu M 0
+, F 0
+gần A 0
+ĐH Ny 0
+Bách_Khoa Np 0
+
+Nhà_trọ N 0
+sinh_viên N 0
+trên E 0
+15 M 0
+m2 Nu 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+, F 0
+khép_kín V 0
+gần A 0
+ĐH Ny 0
+Thăng_Long Np 0
+
+Nhà_trọ N 0
+giá N 0
+rẻ A 0
+cho E 0
+người N 0
+đi V 0
+làm V 0
+, F 0
+khu_vực N 0
+Cầu_Giấy Np 0
+
+Tìm V 0
+phòng N 0
+trọ V 0
+gần A 0
+công_an N 0
+phường N 0
+Mai_Động Np 0
+an_ninh N 0
+đảm_bảo V 0
+, F 0
+nhà N 0
+sạch_sẽ A 0
+, F 0
+thoáng V 0
+mát A 0
+, F 0
+có_điều V 0
+hòa A 0
+, F 0
+bình N 0
+nóng_lạnh A 0
+, F 0
+chỗ N 0
+để E 0
+xe N 0
+rộng_rãi A 0
+. F 0
+Giá N 0
+3 M 0
+tr Nu 0
+/ F 0
+tháng N 0
+, F 0
+điện N 0
+4 M 0
+k N 0
+, F 0
+nước N 0
+80 M 0
+k N 0
+/ F 0
+người N 0
+. F 0
+
+Cần V 0
+tìm V 0
+phòng N 0
+rộng A 0
+18-20 M 0
+m2 Nu 0
+, F 0
+vệ_sinh V 0
+khép_kín A 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+, F 0
+ra V 0
+vào R 0
+, F 0
+có V 0
+chỗ N 0
+để E 0
+xe N 0
+, F 0
+tiền N 0
+phòng N 0
+1 M 0
+tr2 N 0
+, F 0
+điện N 0
+nước N 0
+giá N 0
+dân N 0
+tự P 0
+trả V 0
+( F 0
+mỗi M 0
+tháng N 0
+hết V 0
+khoảng N 0
+100 M 0
+k N 0
+điện N 0
++ F 0
+nước N 0
+) F 0
+, F 0
+có_thể R 0
+đến V 0
+ở E 0
+luôn R 0
+. F 0
+
+Cần V 0
+tìm V 0
+phòng N 0
+sạch_sẽ V 0
+khép_kín A 0
+ở E 0
+quanh N 0
+khu N 0
+bách V 0
+kinh N 0
+xây V 0
+, F 0
+tầm N 0
+3 M 0
+triệu M 0
+đổ V 0
+lại R 0
+. F 0
+
+Cần V 0
+thuê V 0
+phòng N 0
+trọ V 0
+khép_kín A 0
+20 M 0
+m2 Nu 0
+nóng A 0
+lạnh A 0
+, F 0
+điều N 0
+hòa A 0
+, F 0
+an_ninh N 0
+tốt A 0
+có V 0
+camera N 0
+chỗ N 0
+để E 0
+xe N 0
+, F 0
+giá N 0
+phòng N 0
+2 M 0
+triệu300 N 0
+
+Cần V 0
+tìm V 0
+phòng N 0
+quanh N 0
+khu_vực N 0
+đại_học N 0
+xây_dựng V 0
+. F 0
+Bán_kính N 0
+1 M 0
+km Nu 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+, F 0
+vệ_sinh V 0
+khép_kín N 0
+càng R 0
+tốt A 0
+, F 0
+giá N 0
+3 M 0
+triệu M 0
+đổ V 0
+lại R 0
+, F 0
+ở E 0
+được V 0
+4 M 0
+người N 0
+. F 0
+
+Mình P 0
+cần V 0
+tìm V 0
+nhà N 0
+bán_kính N 0
+< F 0
+1 M 0
+km Nu 0
+quanh N 0
+khu N 0
+bách V 0
+kinh N 0
+xây V 0
+, F 0
+cho E 0
+1 M 0
+hoặc C 0
+2 M 0
+người N 0
+ở V 0
+. F 0
+Giá N 0
+tầm N 0
+2 M 0
+tr N 0
+đổ V 0
+lại R 0
+hoặc C 0
+có_thể A 0
+hơn A 0
+tí N 0
+, F 0
+nhà N 0
+khép_kín A 0
+có V 0
+wc N 0
+đẹp A 0
+, F 0
+có V 0
+nóng A 0
+lạnh A 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+, F 0
+có V 0
+chỗ N 0
+để E 0
+xe N 0
+, F 0
+làm V 0
+hợp_đồng N 0
+rõ_ràng A 0
+. F 0
+
+Mình P 0
+đang R 0
+tìm V 0
+gấp V 0
+phòng N 0
+khu_vực N 0
+: F 0
+KHƯƠNG Ny 0
+TRUNG Ny 0
+, F 0
+NGUYỄN_TRÃI Ny 0
+, F 0
+ĐƯỜNG N 0
+LÁNG Ny 0
+( F 0
+KHU_VỰC Ny 0
+GIỮA Ny 0
+NGÃ Ny 0
+4 M 0
+SỞ N 0
+VỚI E 0
+MỄ Ny 0
+TRÌ Ny 0
+) F 0
+giá N 0
+phòng N 0
+< F 0
+2 M 0
+triệu M 0
+, F 0
+rộng A 0
+tầm N 0
+15 M 0
+m2 Nu 0
+ở E 0
+2-3 M 0
+người N 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+, F 0
+giờ_giấc V 0
+thoải_mái A 0
+. F 0
+
+Tìm_phòng N 0
+nào P 0
+ở E 0
+Bạch_Mai Np 0
+, F 0
+Đại_La Np 0
+, F 0
+Lê_Thanh_Nghị Np 0
+còn R 0
+trống A 0
+, F 0
+giá N 0
+< F 0
+2 M 0
+triệu M 0
+. F 0
+
+Mình P 0
+cần V 0
+thuê V 0
+phòng N 0
+có V 0
+khu N 0
+để E 0
+xe N 0
+riêng A 0
+, F 0
+nấu_ăn V 0
+trong E 0
+phòng N 0
+, F 0
+khép_kín A 0
+giá N 0
+< F 0
+1 M 0
+tr3 N 0
+. F 0
+
+Em N 0
+muốn V 0
+tìm V 0
+phòng N 0
+cho E 0
+nam N 0
+khu_vực N 0
+Phương_Mai Np 0
+Lương_Định Np 0
+Của E 0
+giá N 0
+tầm N 0
+2 M 0
+tr5 N 0
+đổ V 0
+xuống R 0
+. F 0
+
+Mình P 0
+cần V 0
+thuê V 0
+phòng N 0
+ở E 0
+một M 0
+người N 0
+có_giá V 0
+từ E 0
+1 M 0
+triệu M 0
+đổ V 0
+lại R 0
+, F 0
+có V 0
+chỗ N 0
+để E 0
+xe_máy N 0
+. F 0
+
+Em N 0
+muốn V 0
+tìm V 0
+nhà_trọ N 0
+cho E 0
+6 M 0
+người N 0
+ở E 0
+khu_vực N 0
+Minh_Khai Np 0
+, F 0
+Vĩnh_Tuy Np 0
+, F 0
+Vĩnh_Hưng Np 0
+, F 0
+Lĩnh Np 0
+Nam Np 0
+, F 0
+Tam_Trinh Np 0
+. F 0
+
+Mình P 0
+muốn V 0
+tìm V 0
+1 M 0
+phòng N 0
+trọ V 0
+khép_kín A 0
+cho E 0
+1 M 0
+người N 0
+giá N 0
+1 M 0
+tr5 Nu 0
+< F 0
+gần A 0
+khu N 0
+Bách Np 0
+Kinh_Xây Np 0
+càng R 0
+tốt A 0
+. F 0
 
 Giá N 0
 phòng N 0
 trọ V 0
 Hà_nội A 0
+
+giá N 0
+nhà N 0
+gần A 0
+hà_nội Np 0
+
+Giá N 0
+thuê V 0
+nhà N 0
+ở E 0
+khu N 0
+cầu N 0
+giấy N 0
+? F 0
+
+giá N 0
+thuê V 0
+nhà N 0
+ở E 0
+cầu N 0
+giấy N 0
+? F 0
+
+giá N 0
+chung_cư N 0
+quận N 0
+Thanh_Xuân_bao_nhiêu N 0
+
+giá N 0
+nhà N 0
+thuê V 0
+? F 0
+
+Giá N 0
+nhà_giải_phóng A 0
+
+giá N 0
+nhà N 0
+tỉnh N 0
+thái_bình A 0
+
+giá N 0
+nhà_trọ N 0
+phường N 0
+Quỳnh_Lôi Np 0
+, F 0
+Hai_Bà_Trưng Np 0
+bao_nhiêu P 0
+? F 0
+
+tìm V 0
+thuê V 0
+cửa_hàng N 0
+phố N 0
+Bà_Triệu Np 0
+, F 0
+Hà_nội Np 0
+
+giá N 0
+nhà N 0
+khu N 0
+thanh_xuân A 0
+bao_nhiêu A 0
+
+giá N 0
+nhà N 0
+phường N 0
+Trung_Hòa Np 0
+, F 0
+Hà_Nội Np 0
+
+tim N 0
+nhà_trọ N 0
+giá N 0
+trên A 0
+3 M 0
+triệu M 0
+
+Thuê V 0
+nhà N 0
+theo V 0
+căn N 0
+, F 0
+giá N 0
+sinh_viên N 0
+quận N 0
+Hai_Bà_Trưng Np 0
+
+gía_nhà_nghỉ N 0
+ở E 0
+trần_duy_hưng N 0
+
+nhà N 0
+mặt_phố N 0
+cho V 0
+thuê V 0
+
+mình P 0
+muốn V 0
+tìm V 0
+nhà_trọ N 0
+tại E 0
+Hai_Bà_Trưng Np 0
+giá N 0
+dưới A 0
+2 M 0
+triệu M 0
+phòng N 0
+khép_kín A 0
+
+nhà_trọ N 0
+ở E 0
+bách_khoa Np 0
+
+căn_hộ N 0
+cho V 0
+thuê V 0
+dưới A 0
+3 M 0
+triệu M 0
+ở E 0
+hai M 0
+bà_trưng N 0
+
+em N 0
+tìm V 0
+nhà_trọ N 0
+khu_vực N 0
+bách_khoa V 0
+ạ N 0
+
+nhà_trọ N 0
+tại E 0
+khu_vực N 0
+mễ_trì N 0
+
+tìm V 0
+thuê V 0
+phòng N 0
+trọ V 0
+ở E 0
+gần A 0
+Bách_Khoa Np 0
+
+: F 0
+3 M 0
+
+: F 0
+) F 0
+) F 0
+
+menu N 0
+
+= F 0
+) F 0
+) F 0
+
+dùng V 0
+thế_nào N 0
+
+tìm_hiểu V 0
+về E 0
+con Nc 0
+bot N 0
+
+Ngu A 0
+quá R 0
+: F 0
+/ F 0
+
+cần V 0
+hỗ_trợ V 0
+
+Ahhhhhh Np 0
+
+ê V 0
+bot N 0
+
+ahihi V 0
+đồ N 0
+ngốc N 0
+
+stupid N 0
+bot V 0
+
+bạn N 0
+thông_minh A 0
+quá R 0
+cơ N 0
+ý N 0
+
+Nhà_trọ N 0
+dưới A 0
+3 M 0
+triệu M 0
+, F 0
+cho E 0
+người N 0
+đi V 0
+làm V 0
+, F 0
+khu_vực N 0
+Hà_Đông Np 0
+
+Tìm V 0
+nhà_trọ N 0
+1 M 0
+người N 0
+dưới A 0
+1.5 M 0
+triệu M 0
+, F 0
+khép_kín A 0
+, F 0
+gần A 0
+ĐH Ny 0
+Công_Nghiệp Np 0
+
+Nhà_trọ N 0
+1 M 0
+người N 0
+, F 0
+không R 0
+chung A 0
+chủ N 0
+, F 0
+giờ_giấc V 0
+thoải_mái A 0
+, F 0
+dưới A 0
+1.5 M 0
+triệu M 0
+, F 0
+gần A 0
+ĐH Ny 0
+Thương_Mại Np 0
+
+Nhà_trọ N 0
+trên E 0
+25 M 0
+m2 Nu 0
+, F 0
+giờ_giấc N 0
+thoải_mái A 0
+, F 0
+khép_kín A 0
+, F 0
+có_điều V 0
+hòa A 0
+, F 0
+khu_vực N 0
+đường N 0
+Giải_Phóng Np 0
+
+Nhà_trọ N 0
+giờ_giấc N 0
+thoải_mái A 0
+, F 0
+trên E 0
+25 M 0
+m2 Nu 0
+, F 0
+đầy_đủ A 0
+tiện_nghi N 0
+, F 0
+khu_vực N 0
+đường N 0
+Trương_Định Np 0
 

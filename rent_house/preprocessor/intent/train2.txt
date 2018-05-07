@@ -141,3 +141,31 @@ __label__greeting Xem infinity war chưa?
 __label__greeting hai
 __label__greeting nói thế có vui không?
 __label__greeting làm thế nào để có bạn gái
+__label__house Nhà trọ khép kín dưới 2 triệu khu vực ĐH Bách Khoa
+__label__house Nhà trọ không chung chủ, khép kín, dưới 2 triệu khu vực ĐH Mỏ
+__label__house Nhà trọ khép kín, dưới 1.5 triệu khu vực ĐH Xây Dựng
+__label__house Nhà nghỉ bình dân ở Phố Vọng
+__label__house Nhà trọ sinh viên giá rẻ khu vực Hai Bà Trưng, không chung chủ
+__label__house Tìm nhà trọ khép kín giá rẻ, trên 20 m2, khu vực Cầu Giấy
+__label__house Nhà trọ trên 20 m2, giá dưới 2 triệu gần trường ĐH Khoa học tự nhiên
+__label__house Nhà trọ trên 15 m2, giá dưới 2 triệu gần trường ĐH Khoa học tự nhiên, không chung chủ
+__label__house Nhà nghỉ cao cấp đường Bà Triệu
+__label__house Tìm nhà trọ khép kín, trên 15 m2, gần trường Kinh Tế, giá dưới 2 triệu
+__label__house Tìm nhà trọ khép kín, trên 15 m2, khu vực đường Láng, giá dưới 2 triệu, không chung chủ
+__label__house Nhà trọ sinh viên giá rẻ, khép kín, không chung chủ, dưới 1.5 triệu
+__label__house Nhà trọ sinh viên khép kín, không chung chủ, dưới 1.5 triệu, gần ĐH Bách Khoa
+__label__house Nhà trọ sinh viên trên 15 m2, không chung chủ, khép kín gần ĐH Thăng Long
+__label__house Nhà trọ giá rẻ cho người đi làm, khu vực Cầu Giấy
+__label__house Tìm phòng trọ gần công an phường Mai Động an ninh đảm bảo, nhà sạch sẽ, thoáng mát, có điều hòa , bình nóng lạnh, chỗ để xe rộng rãi . Giá 3tr/ tháng, điện 4k, nước 80k/ người.
+__label__house Cần tìm phòng rộng 18-20m2, vệ sinh khép kín, không chung chủ, ra vào, có chỗ để xe, tiền phòng 1tr2, điện nước giá dân tự trả (mỗi tháng hết khoảng 100k điện+ nước), có thể đến ở luôn.
+__label__house Cần tìm phòng sạch sẽ khép kín ở quanh khu bách kinh xây, tầm 3 triệu đổ lại.
+__label__house Cần thuê phòng trọ khép kín 20m2 nóng lạnh, điều hòa, an ninh tốt có camera chỗ để xe, giá phòng 2triệu300
+__label__house Cần tìm phòng quanh khu vực đại học xây dựng. Bán kính 1km, không chung chủ, vệ sinh khép kín càng tốt, giá 3 triệu đổ lại, ở được 4 người.
+__label__house Mình cần tìm nhà bán kính < 1km quanh khu bách kinh xây, cho 1 hoặc 2 người ở. Giá tầm 2tr đổ lại hoặc có thể hơn tí, nhà khép kín có wc đẹp, có nóng lạnh, không chung chủ, có chỗ để xe, làm hợp đồng rõ ràng.
+__label__house Mình đang tìm gấp phòng khu vực: KHƯƠNG TRUNG, NGUYỄN TRÃI, ĐƯỜNG LÁNG (KHU VỰC GIỮA NGÃ 4 SỞ VỚI MỄ TRÌ) giá phòng < 2 triệu, rộng tầm 15m2 ở 2-3 người, không chung chủ, giờ giấc thoải mái.
+__label__house Tìm phòng nào ở Bạch Mai, Đại La, Lê Thanh Nghị còn trống, giá < 2 triệu.
+__label__house Mình cần thuê phòng có khu để xe riêng, nấu ăn trong phòng, khép kín giá <1tr3.
+__label__house Em muốn tìm phòng cho nam khu vực Phương Mai Lương Định Của giá tầm 2tr5 đổ xuống.
+__label__house Mình cần thuê phòng ở một người có giá từ 1 triệu đổ lại, có chỗ để xe máy.
+__label__house Em muốn tìm nhà trọ cho 6 người ở khu vực Minh Khai, Vĩnh Tuy, Vĩnh Hưng, Lĩnh Nam, Tam Trinh.
+__label__house Mình muốn tìm 1 phòng trọ khép kín cho 1 người giá 1tr5 < gần khu Bách Kinh Xây càng tốt.

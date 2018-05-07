@@ -1,0 +1,791 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Mình cần tìm phòng khu_vực minh khai , bạch mai , trần_khát chân , trương_định và các khu_vực gần kề giá tầm 1 t8 trở xuống , không chung chủ , giờ_giấc thoải_mái ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 27,
+            "end": 36,
+            "value": "minh khai",
+            "entity": "street"
+          },
+          {
+            "start": 39,
+            "end": 47,
+            "value": "bạch mai",
+            "entity": "street"
+          },
+          {
+            "start": 50,
+            "end": 64,
+            "value": "trần_khát chân",
+            "entity": "street"
+          },
+          {
+            "start": 67,
+            "end": 78,
+            "value": "trương_định",
+            "entity": "street"
+          },
+          {
+            "start": 109,
+            "end": 113,
+            "value": "1 t8",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 153,
+            "end": 163,
+            "value": "thoải_mái ",
+            "entity": "time"
+          },
+          {
+            "start": 126,
+            "end": 141,
+            "value": "không chung chủ",
+            "entity": "owner"
+          }
+        ]
+      },
+      {
+        "text": "Còn giá căn_hộ quận 8 thì sao ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "quận 8",
+            "entity": "ward"
+          }
+        ]
+      },
+      {
+        "text": "giá mặt_phố đường Nguyễn_Chí_Thanh , Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 34,
+            "value": "Nguyễn_Chí_Thanh",
+            "entity": "street"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà phường bồ_đề long_biên",
+        "intent": "",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "bồ_đề",
+            "entity": "ward"
+          },
+          {
+            "start": 21,
+            "end": 30,
+            "value": "long_biên",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Giá nhà ở đường Thành_bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "Thành",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Giá phường Trung_Hòa , Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Trung_Hòa",
+            "entity": "ward"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "giá chung_cư bán tháng 4 phường Bách_Khoa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "tháng 4",
+            "entity": "time"
+          },
+          {
+            "start": 25,
+            "end": 41,
+            "value": "Bách_Khoa",
+            "entity": "ward"
+          }
+        ]
+      },
+      {
+        "text": "Giá nhà quận 1 , Hồ_Chí_minh bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "quận 1",
+            "entity": "ward"
+          },
+          {
+            "start": 17,
+            "end": 28,
+            "value": "Hồ_Chí_minh",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà_trọ ba_đình",
+        "intent": "",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "ba_đình",
+            "entity": "ward"
+          }
+        ]
+      },
+      {
+        "text": "giá bán chung_cư HH4 bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "HH4",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "Tìm mua chung_cư Giải_Phóng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "Giải_Phóng",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "nhà ở Hồng_Mai giá bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "Hồng_Mai",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "gía đất Chung_cư Nam_đô",
+        "intent": "",
+        "entities": [
+          {
+            "start": 8,
+            "end": 23,
+            "value": "Chung_cư Nam_đô",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "căn_hộ 2 pn dự_án Lavita_Garden , quận Thủ_Đức",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "Lavita_Garden",
+            "entity": "project"
+          },
+          {
+            "start": 39,
+            "end": 46,
+            "value": "Thủ_Đức",
+            "entity": "district"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "pn",
+            "entity": "unit"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "2",
+            "entity": "bedRoom"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà ở khu_vực lê_thanh_nghị",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "lê_thanh_nghị",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Giá bán nhà_riêng ở Đà_Nẵng_bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Đà_Nẵng",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "Times City giá bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Times City",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "tôi cần tìm thuê gấp một căn để mở văn_phòng làm_việc , diện_tích từ 100 m2 trở lên , giá thuê từ 100 triệu trở xuống",
+        "intent": "",
+        "entities": [
+          {
+            "start": 69,
+            "end": 72,
+            "value": "100",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 98,
+            "end": 101,
+            "value": "100",
+            "entity": "maxPrice"
+          }
+        ]
+      },
+      {
+        "text": "căn_hộ 4 pn đương Bạch_Mai , Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "Bạch_Mai",
+            "entity": "street"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "pn",
+            "entity": "unit"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "4",
+            "entity": "bedRoom"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "giá chung_cư ở Trung_Kính bao tiền",
+        "intent": "",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "Trung_Kính",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "nhà_riêng cho thuê quận_tây_hồ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 19,
+            "end": 30,
+            "value": "quận_tây_hồ",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "giá căn_hộ tại Time_City",
+        "intent": "",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Time_City",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "giá chung_cư ở tòa nhà UDIC , số 27 , Huỳnh_Thúc_Kháng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "UDIC",
+            "entity": "project"
+          },
+          {
+            "start": 38,
+            "end": 54,
+            "value": "Huỳnh_Thúc_Kháng",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà khu_vực Trường_Chinh",
+        "intent": "",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "Trường_Chinh",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà biệt_thự đường nguyễn_văn_bứa , hcm",
+        "intent": "",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "nguyễn_văn_bứa",
+            "entity": "street"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "hcm",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "cho mình biết giá đất Xuân_Đỉnh , Từ_Liêm , Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Xuân_Đỉnh",
+            "entity": "street"
+          },
+          {
+            "start": 34,
+            "end": 41,
+            "value": "Từ_Liêm",
+            "entity": "district"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "Tìm nhà_riêng giá từ 1-5 tỷ diện_tích dưới 100 m2 tại Hai_Bà_Trưng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 21,
+            "end": 24,
+            "value": "1-5",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 43,
+            "end": 46,
+            "value": "100",
+            "entity": "maxAcreage"
+          },
+          {
+            "start": 54,
+            "end": 66,
+            "value": "Hai_Bà_Trưng",
+            "entity": "ward"
+          }
+        ]
+      },
+      {
+        "text": "Giá chung_cư minh khai ba đình_bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "minh khai",
+            "entity": "street"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "ba đình",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "theo_dõi giá nhà quận_hoàn_kiếm",
+        "intent": "",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "value": "quận_hoàn_kiếm",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "giá cho thuê văn_phòng đường Bạch_Mai , Hai_Bà_Trưng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "Bạch_Mai",
+            "entity": "street"
+          },
+          {
+            "start": 40,
+            "end": 52,
+            "value": "Hai_Bà_Trưng",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "em tìm nhà_trọ khu_vực bách_khoa ạ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": "bách_khoa",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "tôi muốn biết giá khu_vực gầm cầu_vượt Mai_Dịch Cầu GIấy_Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "cầu_vượt",
+            "entity": "project"
+          },
+          {
+            "start": 39,
+            "end": 47,
+            "value": "Mai_Dịch",
+            "entity": "street"
+          },
+          {
+            "start": 48,
+            "end": 56,
+            "value": "Cầu GIấy",
+            "entity": "district"
+          },
+          {
+            "start": 57,
+            "end": 63,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "gía_chung_cư quận Đống_Đa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "Đống_Đa",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Giá nhà khu Lê_Trọng_Tấn Thanh_Xuân_Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 12,
+            "end": 24,
+            "value": "Lê_Trọng_Tấn",
+            "entity": "street"
+          },
+          {
+            "start": 25,
+            "end": 35,
+            "value": "Thanh_Xuân",
+            "entity": "district"
+          },
+          {
+            "start": 36,
+            "end": 42,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "nhà để kinh_doanh phố huế",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 25,
+            "value": "phố huế",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "nhà 3 phòng ngủ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 4,
+            "end": 5,
+            "value": "3",
+            "entity": "bedRoom"
+          },
+          {
+            "start": 6,
+            "end": 15,
+            "value": "phòng ngủ",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "nhà_riêng phường Xuân_Đỉnh , quận Bắc_Từ_Liêm",
+        "intent": "",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Xuân_Đỉnh",
+            "entity": "ward"
+          },
+          {
+            "start": 34,
+            "end": 45,
+            "value": "Bắc_Từ_Liêm",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Giá dat tại phố phú_viên , long_biên , hà_nội bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "phú_viên",
+            "entity": "street"
+          },
+          {
+            "start": 27,
+            "end": 36,
+            "value": "long_biên",
+            "entity": "district"
+          },
+          {
+            "start": 39,
+            "end": 45,
+            "value": "hà_nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "Giá chung_cư HUD 3 bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "HUD 3",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "nhà ở đâu 2 tỷ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 10,
+            "end": 11,
+            "value": "2",
+            "entity": "maxPrice"
+          }
+        ]
+      },
+      {
+        "text": "mua nhà ở linh đàm",
+        "intent": "",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "linh đàm",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "Cần thuê nhà_royal",
+        "intent": "",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "nhà_royal",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "giá đất quận_thanh_xuân",
+        "intent": "",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "thanh_xuân",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "nhà để kinh_doanh cầu giấy",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "cầu giấy",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "giá chung_cư royal city hà_nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "royal city",
+            "entity": "project"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "hà_nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "Giá nhà ở minh_khai",
+        "intent": "",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "minh_khai",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà_chung_cư",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "giá nhà_cầu giấy",
+        "intent": "",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "cầu giấy",
+            "entity": "district"
+          }
+        ]
+      }
+    ]
+  }
+}

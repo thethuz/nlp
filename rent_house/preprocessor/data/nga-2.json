@@ -1,0 +1,1796 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Giá đất ở khu bách_khoa ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "bách_khoa",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà_trọ đường chùa bộc , hà_nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "chùa bộc",
+            "entity": "street"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "hà_nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà trung_bình khu_vực quận Hai_Bà_Trưng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 32,
+            "end": 44,
+            "value": "Hai_Bà_Trưng",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Giá bán nhà_riêng đường Hàm_Long_bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 23,
+            "end": 32,
+            "value": " Hàm_Long",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "dự_án Hà_Nội_Center_Point đang bán chung_cư giá bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "Hà_Nội",
+            "entity": "province"
+          },
+          {
+            "start": 5,
+            "end": 25,
+            "value": " Hà_Nội_Center_Point",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "Giá nhà cho thuê đường thanh_nhàn , hbt",
+        "intent": "",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "value": "thanh_nhàn",
+            "entity": "street"
+          },
+          {
+            "start": 36,
+            "end": 39,
+            "value": "hbt",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "tìm văn_phòng cho thuê tại hà_nội có_giá dưới 10 triệu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "hà_nội",
+            "entity": "province"
+          },
+          {
+            "start": 46,
+            "end": 54,
+            "value": "10",
+            "entity": "maxPrice"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà ở quận Hoàng_Mai",
+        "intent": "",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Hoàng_Mai",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ đường Chùa Bộc giá bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Chùa Bộc",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Nhà ở giải_phóng giá bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "value": "giải_phóng",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Giá trung_cư Ba_Đình",
+        "intent": "",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "Ba_Đình",
+            "entity": "district"
+          },
+          {
+            "start": 4,
+            "end": 20,
+            "value": "trung_cư Ba_Đình",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "khu_đô_thị Trung_Hòa_Nhân_Chính bán căn_hộ_giá bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "khu_đô_thị Trung_Hòa_Nhân_Chính",
+            "entity": "project"
+          },
+          {
+            "start": 0,
+            "end": 31,
+            "value": "Trung_Hòa",
+            "entity": "street"
+          },
+          {
+            "start": 21,
+            "end": 31,
+            "value": "Nhân_Chính",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà bán đường nguyễn_văn_cừ , quận_long_biên",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "nguyễn_văn_cừ",
+            "entity": "street"
+          },
+          {
+            "start": 34,
+            "end": 48,
+            "value": "quận_long_biên",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Giá thuê nhà ở quận Hai_Bà_Trưng ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 20,
+            "end": 33,
+            "value": "Hai_Bà_Trưng ",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Giá nhà tại đường Hoàng_Quốc_Việt",
+        "intent": "",
+        "entities": [
+          {
+            "start": 18,
+            "end": 33,
+            "value": "Hoàng_Quốc_Việt",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Giá chung_cư hồ_tây",
+        "intent": "",
+        "entities": [
+          {
+            "start": 4,
+            "end": 19,
+            "value": "chung_cư hồ_tây",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "nhà_riêng xuân đỉnh từ liêm",
+        "intent": "",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "xuân đỉnh",
+            "entity": "street"
+          },
+          {
+            "start": 19,
+            "end": 27,
+            "value": " từ liêm",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà_chung_cư phường Mỹ_Đình , Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Mỹ_Đình",
+            "entity": "district"
+          },
+          {
+            "start": 34,
+            "end": 40,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "nhà_riêng quận Đống_Đa bán giá bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "Đống_Đa ",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà đường Nguyễn_Văn_Trỗi , quận Từ_Liêm",
+        "intent": "",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "Nguyễn_Văn_Trỗi",
+            "entity": "street"
+          },
+          {
+            "start": 36,
+            "end": 44,
+            "value": " Từ_Liêm",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Thuê nhà theo căn , giá sinh_viên",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "Giá nhà đường Láng , Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "Láng",
+            "entity": "street"
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà_riêng Đà_Nẵng là bao_nhiêu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Đà_Nẵng",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ_Huyện Yên_Phong_Bắc_Ninh",
+        "intent": "",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Yên_Phong",
+            "entity": "district"
+          },
+          {
+            "start": 24,
+            "end": 32,
+            "value": "Bắc_Ninh",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà_trọ cho thuê phường Quỳnh_Lôi , Hai_Bà_Trưng bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "Quỳnh_Lôi",
+            "entity": "ward"
+          },
+          {
+            "start": 40,
+            "end": 53,
+            "value": "Hai_Bà_Trưng ",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "tìm văn_phòng cho thuê ở Tam_Trinh , Hai_Bà_Trưng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Tam_Trinh",
+            "entity": "street"
+          },
+          {
+            "start": 37,
+            "end": 49,
+            "value": "Hai_Bà_Trưng",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Giá nhà bán tại gần hồ vị xuyên Nam_Định",
+        "intent": "",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Nam_Định",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà_trọ cho thuê phường Bách_Khoa , hbt tháng ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "Bách_Khoa",
+            "entity": "ward"
+          },
+          {
+            "start": 40,
+            "end": 43,
+            "value": "hbt",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà_đội cấn bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "đội cấn",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "giá chung_cư quận Hoàng_Mai là bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": " Hoàng_Mai ",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "cầu giấy nhà_thuê",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "cầu giấy",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Giá nhà ở Nguyễn_Đổng_Chi",
+        "intent": "",
+        "entities": [
+          {
+            "start": 10,
+            "end": 25,
+            "value": "Nguyễn_Đổng_Chi",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà mặt_phố đường Trường_Chinh , Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "Trường_Chinh",
+            "entity": "street"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "Chung_cư ở vinhome riverside giá bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 0,
+            "end": 28,
+            "value": "Chung_cư ở vinhome riverside",
+            "entity": "project"
+          }
+        ]
+      },
+      {
+        "text": "Giá thuê nhà ở hà_nội ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": " hà_nội ",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà_trọ ở Cầu_Giấy",
+        "intent": "",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": " Cầu_Giấy",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Giá ở đường Xuân_Thủy",
+        "intent": "",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "Xuân_Thủy",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà_trọ quận Đống_Đa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "Đống_Đa",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Tôi hỏi giá nhà trung kính cầu giấy",
+        "intent": "",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": " trung kính",
+            "entity": "street"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "cầu giấy",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà_trọ khu_vực bach mai có_giá dưới 2 triệu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 20,
+            "end": 29,
+            "value": "bach mai ",
+            "entity": "street"
+          },
+          {
+            "start": 41,
+            "end": 48,
+            "value": "2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 43,
+            "end": 48,
+            "value": "triệu",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ cho thuê khu_vực Bách_Khoa , Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Bách_Khoa",
+            "entity": "ward"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ cho thuê khu_vực Bách_Khoa , Hà_Nội giá bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Bách_Khoa",
+            "entity": "ward"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà_trọ cho thuê khu Bách_Khoa , Hà_Nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "Bách_Khoa",
+            "entity": "ward"
+          },
+          {
+            "start": 37,
+            "end": 43,
+            "value": "Hà_Nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "giá nhà_trọ cho thuê phường bách_khoa tháng ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 28,
+            "end": 37,
+            "value": "bách_khoa",
+            "entity": "ward"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ hai bà_trưng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 8,
+            "end": 20,
+            "value": "hai bà_trưng",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "cho thuê phòng trọ Bách_khoa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Bách_khoa",
+            "entity": "ward"
+          }
+        ]
+      },
+      {
+        "text": "Tôi muốn tìm phòng trọ quanh khu_vực Tạ_Quang_Bửu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 37,
+            "end": 49,
+            "value": "Tạ_Quang_Bửu",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "phòng trọ cho thuê",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "giá nhà_trọ cho thuê quận Hai_Bà_Trưng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "Hai_Bà_Trưng",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "thuê phòng trọ ý",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "giá phòng trọ ở Hoàng_Mai",
+        "intent": "",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "Hoàng_Mai",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "thuê nhà_trọ đường chùa bộc giá bao_nhiêu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "chùa bộc",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ cho thuê dưới 2 triệu quận hai bà_trưng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 21,
+            "end": 23,
+            "value": " 2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "triệu ",
+            "entity": "unit"
+          },
+          {
+            "start": 35,
+            "end": 47,
+            "value": "hai bà_trưng",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "cho thuê phòng trọ ở Bách_Khoa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Bách_Khoa",
+            "entity": "ward"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ gần nhiều hàng ăn khu kinh_tế quốc_dân",
+        "intent": "",
+        "entities": [
+          {
+            "start": 30,
+            "end": 46,
+            "value": "kinh_tế quốc_dân",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ gần bách_khoa giá 1 triệu / tháng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "value": "bách_khoa",
+            "entity": "ward"
+          },
+          {
+            "start": 26,
+            "end": 27,
+            "value": "1",
+            "entity": "minPrice"
+          },
+          {
+            "start": 28,
+            "end": 41,
+            "value": "triệu / tháng",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà_trọ ở trần_duy_hưng , hà_nội",
+        "intent": "",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "trần_duy_hưng",
+            "entity": "street"
+          },
+          {
+            "start": 30,
+            "end": 36,
+            "value": "hà_nội",
+            "entity": "province"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ linh đàm",
+        "intent": "",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": " linh đàm",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Tôi muốn giúp tôi tìm phòng trọ có giá nhỏ hơn 1,5 triệu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 47,
+            "end": 50,
+            "value": "1,5",
+            "entity": "maxPrice"
+          }
+        ]
+      },
+      {
+        "text": "phòng trọ phố Quần_Ngựa , Ba_Đình",
+        "intent": "",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Quần_Ngựa",
+            "entity": "street"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "Ba_Đình",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "timg nhà_trọ gần đại_học bách_khoa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 17,
+            "end": 34,
+            "value": "đại_học bách_khoa",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "phòng trọ kinh_tế quốc_dân",
+        "intent": "",
+        "entities": [
+          {
+            "start": 10,
+            "end": 26,
+            "value": "kinh_tế quốc_dân",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "tôi muốn cập_nhật tin đăng phòng trọ cho thuê bên Bắc_Từ_Liêm , giá rẻ ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 50,
+            "end": 61,
+            "value": "Bắc_Từ_Liêm",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ cho thuê dưới 1.5 triệu phường bách_khoa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 21,
+            "end": 25,
+            "value": " 1.5",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "bách_khoa",
+            "entity": "ward"
+          }
+        ]
+      },
+      {
+        "text": "nhà_trọ dưới 1.5 triệu phường bách_khoa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 30,
+            "end": 39,
+            "value": "bách_khoa",
+            "entity": "ward"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "1.5",
+            "entity": "maxPrice"
+          }
+        ]
+      },
+      {
+        "text": "tìm nhà_trọ khu_vực mễ_trì",
+        "intent": "",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "mễ_trì",
+            "entity": "ward"
+          }
+        ]
+      },
+      {
+        "text": "hi",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "xin chào",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "help",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "cíu",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "cứu",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "em ei",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "hihi",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "ahihi",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "là đồ ngốc",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "thật thông_minh",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "ngu quá đi",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "làm được gì",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "chào",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "tôi không hiểu phải làm gì",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "ban lam_duoc gi",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "mày nói tào_lao",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "anh nói tào_lao_thế",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "vui_tính lắm",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "Bạn có_thể giúp gì cho mình ",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "Xem infinity war chưa ",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "hai",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "nói thế có vui không ",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "làm thế_nào để có gái",
+        "intent": "",
+        "entities": []
+      },
+      {
+        "text": "Nhà_trọ khép_kín dưới 2 triệu khu_vực ĐH Bách_Khoa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 22,
+            "end": 23,
+            "value": "2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 38,
+            "end": 50,
+            "value": "ĐH Bách_Khoa",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ không chung chủ , khép_kín , dưới 2 triệu khu_vực ĐH Mỏ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 42,
+            "end": 43,
+            "value": "2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 58,
+            "end": 63,
+            "value": "ĐH Mỏ",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ khép_kín , dưới 1.5 triệu khu_vực ĐH Xây_Dựng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 24,
+            "end": 27,
+            "value": "1.5",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 42,
+            "end": 53,
+            "value": "ĐH Xây_Dựng",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_nghỉ bình_dân ở Phố_Vọng",
+        "intent": "",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": " Phố_Vọng",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ sinh_viên giá rẻ khu_vực Hai_Bà_Trưng , không chung chủ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 33,
+            "end": 45,
+            "value": "Hai_Bà_Trưng",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Tìm nhà_trọ khép_kín giá rẻ , trên 20 m2 , khu_vực Cầu_Giấy",
+        "intent": "",
+        "entities": [
+          {
+            "start": 35,
+            "end": 37,
+            "value": "20",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 38,
+            "end": 40,
+            "value": "m2",
+            "entity": "unit"
+          },
+          {
+            "start": 51,
+            "end": 59,
+            "value": "Cầu_Giấy",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ trên 20 m2 , giá dưới 2 triệu gần trường ĐH Khoa_học tự_nhiên",
+        "intent": "",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "20",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "m2 ",
+            "entity": "unit"
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "value": "2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 49,
+            "end": 69,
+            "value": "ĐH Khoa_học tự_nhiên",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ trên 15 m2 , giá dưới 2 triệu gần trường ĐH Khoa_học tự_nhiên , không chung chủ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "15",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "m2",
+            "entity": "unit"
+          },
+          {
+            "start": 30,
+            "end": 31,
+            "value": "2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 48,
+            "end": 69,
+            "value": " ĐH Khoa_học tự_nhiên",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_nghỉ cao_cấp đường Bà_Triệu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Bà_Triệu",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Tìm nhà_trọ khép_kín , trên 15 m2 , gần trường Kinh_Tế , giá dưới 2 triệu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 28,
+            "end": 30,
+            "value": "15",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 31,
+            "end": 34,
+            "value": "m2 ",
+            "entity": "unit"
+          },
+          {
+            "start": 47,
+            "end": 54,
+            "value": "Kinh_Tế",
+            "entity": "school"
+          },
+          {
+            "start": 65,
+            "end": 67,
+            "value": " 2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 68,
+            "end": 73,
+            "value": "triệu",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "Tìm nhà_trọ khép_kín , trên 15 m2 , khu_vực đường Láng , giá dưới 2 triệu , không chung chủ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 28,
+            "end": 30,
+            "value": "15",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 31,
+            "end": 33,
+            "value": "m2",
+            "entity": "unit"
+          },
+          {
+            "start": 50,
+            "end": 54,
+            "value": "Láng",
+            "entity": "street"
+          },
+          {
+            "start": 66,
+            "end": 67,
+            "value": "2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 68,
+            "end": 73,
+            "value": "triệu",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ sinh_viên giá rẻ , khép_kín , không chung chủ , dưới 1.5 triệu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 61,
+            "end": 64,
+            "value": "1.5",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 64,
+            "end": 70,
+            "value": " triệu",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ sinh_viên khép_kín , không chung chủ , dưới 1.5 triệu , gần ĐH Bách_Khoa",
+        "intent": "",
+        "entities": [
+          {
+            "start": 52,
+            "end": 55,
+            "value": "1.5",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 56,
+            "end": 61,
+            "value": "triệu",
+            "entity": "unit"
+          },
+          {
+            "start": 67,
+            "end": 80,
+            "value": " ĐH Bách_Khoa",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ sinh_viên trên 15 m2 , không chung chủ , khép_kín gần ĐH Thăng_Long",
+        "intent": "",
+        "entities": [
+          {
+            "start": 23,
+            "end": 25,
+            "value": "15",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "value": "m2",
+            "entity": "unit"
+          },
+          {
+            "start": 62,
+            "end": 75,
+            "value": "ĐH Thăng_Long",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "Nhà_trọ giá rẻ cho người đi làm , khu_vực Cầu_Giấy",
+        "intent": "",
+        "entities": [
+          {
+            "start": 42,
+            "end": 50,
+            "value": "Cầu_Giấy",
+            "entity": "district"
+          }
+        ]
+      },
+      {
+        "text": "Tìm phòng trọ gần công_an phường Mai_Động an_ninh đảm_bảo , nhà sạch_sẽ , thoáng mát , có_điều hòa , bình nóng_lạnh , chỗ để xe rộng_rãi . Giá 3 tr / tháng , điện 4 k , nước 80 k / người ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 33,
+            "end": 41,
+            "value": "Mai_Động",
+            "entity": "ward"
+          },
+          {
+            "start": 143,
+            "end": 144,
+            "value": "3",
+            "entity": "minPrice"
+          },
+          {
+            "start": 144,
+            "end": 155,
+            "value": " tr / tháng",
+            "entity": "unit"
+          },
+          {
+            "start": 163,
+            "end": 165,
+            "value": "4 ",
+            "entity": "minPrice"
+          },
+          {
+            "start": 165,
+            "end": 166,
+            "value": "k",
+            "entity": "unit"
+          },
+          {
+            "start": 174,
+            "end": 177,
+            "value": "80 ",
+            "entity": "minPrice"
+          },
+          {
+            "start": 177,
+            "end": 187,
+            "value": "k / người ",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "Cần tìm phòng rộng 18-20 m2 , vệ_sinh khép_kín , không chung chủ , ra vào , có chỗ để xe , tiền phòng 1 tr2 , điện nước giá dân tự trả ( mỗi tháng hết khoảng 100 k điện + nước ) , có_thể đến ở luôn ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "18",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "20",
+            "entity": "maxAcreage"
+          },
+          {
+            "start": 102,
+            "end": 107,
+            "value": "1 tr2",
+            "entity": "minPrice"
+          }
+        ]
+      },
+      {
+        "text": "Cần tìm phòng sạch_sẽ khép_kín ở quanh khu bách kinh xây , tầm 3 triệu đổ lại ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 63,
+            "end": 64,
+            "value": "3",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 43,
+            "end": 56,
+            "value": "bách kinh xây",
+            "entity": "school"
+          }
+        ]
+      },
+      {
+        "text": "Cần thuê phòng trọ khép_kín 20 m2 nóng lạnh , điều hòa , an_ninh tốt có camera chỗ để xe , giá phòng 2 triệu",
+        "intent": "",
+        "entities": [
+          {
+            "start": 28,
+            "end": 30,
+            "value": "20",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 31,
+            "end": 33,
+            "value": "m2",
+            "entity": "unit"
+          },
+          {
+            "start": 101,
+            "end": 102,
+            "value": "2",
+            "entity": "minPrice"
+          },
+          {
+            "start": 103,
+            "end": 108,
+            "value": "triệu",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "Cần tìm phòng quanh khu_vực đại_học xây_dựng . Bán_kính 1 km , không chung chủ , vệ_sinh khép_kín càng tốt , giá 3 triệu đổ lại , ở được 4 người ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 27,
+            "end": 44,
+            "value": " đại_học xây_dựng",
+            "entity": "school"
+          },
+          {
+            "start": 56,
+            "end": 57,
+            "value": "1",
+            "entity": "radius"
+          },
+          {
+            "start": 113,
+            "end": 114,
+            "value": "3",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 115,
+            "end": 120,
+            "value": "triệu",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "Mình cần tìm nhà bán_kính  1 km quanh khu bách kinh xây , cho 1 hoặc 2 người ở . Giá tầm 2 tr đổ lại hoặc có_thể hơn tí , nhà khép_kín có wc đẹp , có nóng lạnh , không chung chủ , có chỗ để xe , làm hợp_đồng rõ_ràng ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 89,
+            "end": 90,
+            "value": "2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 42,
+            "end": 55,
+            "value": "bách kinh xây",
+            "entity": "school"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "value": "1",
+            "entity": "radius"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "value": "1",
+            "entity": ""
+          }
+        ]
+      },
+      {
+        "text": "Mình đang tìm gấp phòng khu_vực : KHƯƠNG TRUNG , NGUYỄN_TRÃI , ĐƯỜNG LÁNG ( KHU_VỰC GIỮA NGÃ 4 SỞ VỚI MỄ TRÌ ) giá phòng  2 triệu , rộng tầm 15 m2 ở 2-3 người , không chung chủ , giờ_giấc thoải_mái ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 34,
+            "end": 46,
+            "value": "KHƯƠNG TRUNG",
+            "entity": "ward"
+          },
+          {
+            "start": 49,
+            "end": 60,
+            "value": "NGUYỄN_TRÃI",
+            "entity": "street"
+          },
+          {
+            "start": 69,
+            "end": 73,
+            "value": "LÁNG",
+            "entity": "street"
+          },
+          {
+            "start": 89,
+            "end": 98,
+            "value": "NGÃ 4 SỞ ",
+            "entity": "street"
+          },
+          {
+            "start": 102,
+            "end": 108,
+            "value": "MỄ TRÌ",
+            "entity": "ward"
+          },
+          {
+            "start": 121,
+            "end": 123,
+            "value": " 2",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 124,
+            "end": 129,
+            "value": "triệu",
+            "entity": "unit"
+          },
+          {
+            "start": 141,
+            "end": 143,
+            "value": "15",
+            "entity": "minAcreage"
+          },
+          {
+            "start": 144,
+            "end": 146,
+            "value": "m2",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "Tìm_phòng nào ở Bạch_Mai , Đại_La , Lê_Thanh_Nghị còn trống , giá  2 triệu ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 67,
+            "end": 68,
+            "value": "2",
+            "entity": "minPrice"
+          },
+          {
+            "start": 69,
+            "end": 74,
+            "value": "triệu",
+            "entity": "unit"
+          },
+          {
+            "start": 36,
+            "end": 49,
+            "value": "Lê_Thanh_Nghị",
+            "entity": "street"
+          },
+          {
+            "start": 27,
+            "end": 33,
+            "value": "Đại_La",
+            "entity": "street"
+          },
+          {
+            "start": 15,
+            "end": 24,
+            "value": " Bạch_Mai",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Mình cần thuê phòng có khu để xe riêng , nấu_ăn trong phòng , khép_kín giá  1 tr3 ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 76,
+            "end": 82,
+            "value": "1 tr3 ",
+            "entity": "minPrice"
+          }
+        ]
+      },
+      {
+        "text": "Em muốn tìm phòng cho nam khu_vực Phương_Mai Lương_Định Của giá tầm 2 tr5 đổ xuống ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 34,
+            "end": 44,
+            "value": "Phương_Mai",
+            "entity": "ward"
+          },
+          {
+            "start": 45,
+            "end": 59,
+            "value": "Lương_Định Của",
+            "entity": "street"
+          },
+          {
+            "start": 68,
+            "end": 73,
+            "value": "2 tr5",
+            "entity": "maxPrice"
+          }
+        ]
+      },
+      {
+        "text": "Mình cần thuê phòng ở một người có_giá từ 1 triệu đổ lại , có chỗ để xe_máy ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 42,
+            "end": 44,
+            "value": "1 ",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 44,
+            "end": 49,
+            "value": "triệu",
+            "entity": "unit"
+          }
+        ]
+      },
+      {
+        "text": "Em muốn tìm nhà_trọ cho 6 người ở khu_vực Minh_Khai , Vĩnh_Tuy , Vĩnh_Hưng , Lĩnh Nam , Tam_Trinh ",
+        "intent": "",
+        "entities": [
+          {
+            "start": 42,
+            "end": 51,
+            "value": "Minh_Khai",
+            "entity": "street"
+          },
+          {
+            "start": 54,
+            "end": 62,
+            "value": "Vĩnh_Tuy",
+            "entity": "ward"
+          },
+          {
+            "start": 65,
+            "end": 74,
+            "value": "Vĩnh_Hưng",
+            "entity": "ward"
+          },
+          {
+            "start": 77,
+            "end": 85,
+            "value": "Lĩnh Nam",
+            "entity": "street"
+          },
+          {
+            "start": 88,
+            "end": 98,
+            "value": "Tam_Trinh ",
+            "entity": "street"
+          }
+        ]
+      },
+      {
+        "text": "Mình muốn tìm 1 phòng trọ khép_kín cho 1 người giá 1 tr5  gần khu Bách Kinh_Xây càng tốt",
+        "intent": "",
+        "entities": [
+          {
+            "start": 51,
+            "end": 56,
+            "value": "1 tr5",
+            "entity": "maxPrice"
+          },
+          {
+            "start": 66,
+            "end": 79,
+            "value": "Bách Kinh_Xây",
+            "entity": "school"
+          }
+        ]
+      }
+    ]
+  }
+}

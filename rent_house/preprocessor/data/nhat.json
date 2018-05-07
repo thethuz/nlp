@@ -1,0 +1,242 @@
+{
+	"rasa_nlu_data": {
+		"common_examples": [{
+				"text": "giá nhà gần hà_nội",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Giá thuê nhà ở khu cầu giấy ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá thuê nhà ở cầu giấy ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá chung_cư quận Thanh_Xuân_bao_nhiêu",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá nhà thuê ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Giá nhà_giải_phóng",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá nhà tỉnh thái_bình",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá nhà_trọ phường Quỳnh_Lôi , Hai_Bà_Trưng bao_nhiêu ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "tìm thuê cửa_hàng phố Bà_Triệu , Hà_nội",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá nhà khu thanh_xuân bao_nhiêu",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá nhà phường Trung_Hòa , Hà_Nội",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "tim nhà_trọ giá trên 3 triệu",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Thuê nhà theo căn , giá sinh_viên quận Hai_Bà_Trưng",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "gía_nhà_nghỉ ở trần_duy_hưng",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "nhà mặt_phố cho thuê",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "mình muốn tìm nhà_trọ tại Hai_Bà_Trưng giá dưới 2 triệu phòng khép_kín",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "nhà_trọ ở bách_khoa",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "căn_hộ cho thuê dưới 3 triệu ở hai bà_trưng",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "em tìm nhà_trọ khu_vực bách_khoa ạ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "nhà_trọ tại khu_vực mễ_trì",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "tìm thuê phòng trọ ở gần Bách_Khoa",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": " ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": " ) ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "menu",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": " ) ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "dùng thế_nào",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "tìm_hiểu về con",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Ngu quá : ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "cần hỗ_trợ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Ahhhhhh",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "ê",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "ahihi đồ ngốc",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "stupid",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "thông_minh quá cơ ý",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Nhà_trọ dưới 3 triệu , cho người đi làm , khu_vực Hà_Đông",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Tìm nhà_trọ 1 người dưới 1.5 triệu , khép_kín , gần ĐH Công_Nghiệp",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Nhà_trọ 1 người , không chung chủ , giờ_giấc thoải_mái , dưới 1.5 triệu , gần ĐH Thương_Mại",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Nhà_trọ trên 25 m2 , giờ_giấc thoải_mái , khép_kín , có_điều hòa , khu_vực đường Giải_Phóng",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Nhà_trọ giờ_giấc thoải_mái , trên 25 m2 , đầy_đủ tiện_nghi , khu_vực đường Trương_Định",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Em cần tìm phòng trọ ở 1 mình dứoi 2 tr , sạch sẽ an_ninh tốt , chung chủ cũng ok ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Em cần tìm 1 phòng trọ khép_kín khu_vực Giải_Phóng , Trường_Chinh , cho 1 nữ ở , tầm giá 2 tr / tháng ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "E muốn tìm phòng trọ khép_kín cho 1 nữ ở tầm  1 tr5 quanh lê_thanh_nghị , phương mai , trần_đại_nghĩa ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Cần tìm trọ 1 người phòng dưới 1 tr5 , nhỏ cũng được nhưng mà sạch_sẽ , vệ_sinh khép_kín nhà thoáng mát xung_quanh Xã Đàn ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Căn_hộ dự_án Times_City_bao_nhiêu",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá chung_cư ở khu_đô_thị Mễ_TRì",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "Giá chung_cư linh đàm_bao_nhiêu",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá nhà trung_bình khu_vực quận Hai_Bà_Trưng ",
+				"intent": "",
+				"entities": []
+			},
+			{
+				"text": "giá nhà_riêng bán quận_tây_hồ",
+				"intent": "",
+				"entities": []
+			}]}}
