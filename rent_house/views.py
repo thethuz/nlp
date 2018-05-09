@@ -86,11 +86,12 @@ class ChatterBotAppView(ChatterBotViewMixin, TemplateView):
         self.validate(input_data)
 
         conversation = self.get_conversation(request)
-        # print('________________**')
-        print("conversation id is: "+str(conversation.id))
-        # print('________________**')
 
-        response = self.chatterbot.get_response(input_data, conversation.id)
+        # print("conversation id is: "+str(conversation.id))
+        # print(type(input_data))
+        input_data['session']=conversation.id
+        print('input data'+str(input_data))
+        response = self.chatterbot.get_response(json.dumps(input_data))
         response_data = response.serialize()
 
         return JsonResponse(response_data, status=200)

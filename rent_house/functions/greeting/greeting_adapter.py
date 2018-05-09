@@ -12,7 +12,13 @@ class GreetingAdapter(LogicAdapter):
 
     def can_process(self, statement):
         fb_statement = statement.extra_data
-        return True
+        # print(type(fb_statement))
+        # print(fb_statement['action'])
+        return False
+        # if(fb_statement['action']=='__label__greeting'):
+        #     return True
+        # else:
+        #     return False
         # if not fb_statement.has_key('id_adapter'):
         #     rasa_nlu = fb_statement['rasa_nlu']
         #     if self.id_adapter.lower() == rasa_nlu['intent']['name']:
@@ -27,6 +33,7 @@ class GreetingAdapter(LogicAdapter):
         # fb_statement['confidence']=0.9
         # rasa_nlu = fb_statement['rasa_nlu']
         statementResponse = Statement(u"Chào bạn! Tôi có thể giúp gì cho bạn? Greeting")
+
         statementResponse.confidence = 0.1#rasa_nlu['intent']['confidence']
         # print('________________')
         # print(statementResponse)

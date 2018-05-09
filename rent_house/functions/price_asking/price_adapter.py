@@ -12,13 +12,10 @@ class PriceAdapter(LogicAdapter):
 
     def can_process(self, statement):
         fb_statement = statement.extra_data
-        return True
-        # if not fb_statement.has_key('id_adapter'):
-        #     rasa_nlu = fb_statement['rasa_nlu']
-        #     if self.id_adapter.lower() == rasa_nlu['intent']['name']:
-        #         return True
-        #     else:
-        #         return False
+        # print('fb_statement: '+str(fb_statement))
+        return False
+        # if(fb_statement['action']=='__label__greeting'):
+        #     return True
         # else:
         #     return False
 
