@@ -27,6 +27,7 @@ class HouseAdapter(LogicAdapter):
         #         return False
         # else:
         #     return False
+        # 
 
     def process(self, statement):
         fb_statement = statement.extra_data
