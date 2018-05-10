@@ -19,12 +19,11 @@ class HouseAdapter(LogicAdapter):
 
     def can_process(self, statement):
         fb_statement = statement.extra_data
-        # print(fb_statement)
-        return True
-        # if(fb_statement['action']=='__label__house'):
-        #     return True
-        # else:
-        #     return False
+        state=fb_statement['conversation_id'][0]
+        if(fb_statement['action']=='__label__house' and (state = 'init' or state='house')):
+            return True
+        else:
+            return False
         # if not fb_statement.has_key('id_adapter'):
         #     rasa_nlu = fb_statement['rasa_nlu']
         #     if self.id_adapter.lower() == rasa_nlu['intent']['name']:
