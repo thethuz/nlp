@@ -77,29 +77,29 @@ def ner_exact(test_list_sentence):
     y_pred = ner.predict(X_matrix_test_sentence)
     # print(test_list_sentence.split())
     # print(y_pred)
-    entity_list=[]
+    entity_dict={}
     l1=test_list_sentence.split()
-    print(l1)
+    # print(l1)
     # print(y_pred)
     for l000,l001 in zip(l1,y_pred[0]):
         # print(l000, l001)
         if l001!='0':
-            i={l001:l000}
-            entity_list.append(i)
-    return entity_list
+            # i={l001:l000}
+            entity_dict[l001]=l000
+    return entity_dict
 
 def extract_intent_entities(chatbot, statement):
     print('statement'+str(statement))
-    try:
-        print(statement.extra_data)
-    except:
-        print('no extra data')
+    # try:
+    #     print(statement.extra_data)
+    # except:
+    #     print('no extra data')
     try:
         fb_statement = json.loads(statement.text)
     except:
         fb_statement={'extra_data':statement.text}
-    print(fb_statement)
-    print("\n\n")
+    # print(fb_statement)
+    # print("\n\n")
     """
     process(self, statement) -> response
     :param
@@ -125,10 +125,10 @@ def extract_intent_entities(chatbot, statement):
     mtrix=[v1]
     action=classify.predict(mtrix)
     # print('ner:')
-    ner_list=ner_exact(sentences)
-    print(ner_list)
+    ner_dict=ner_exact(sentences)
+    # print(ner_dict)
     # print(sentences)
-    user_message={'action':action[0],'text':fb_statement['text'],'ner':ner_list,'conversation_id':fb_statement['session']}
+    user_message={'action':action[0],'text':fb_statement['text'],'ner':ner_dict,'conversation_id':fb_statement['session']}
     statement.text = str(fb_statement['text'])
     statement.extra_data = user_message
 

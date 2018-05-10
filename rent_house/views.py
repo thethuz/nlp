@@ -62,7 +62,7 @@ class ChatterBotViewMixin(object):
 class ChatterBotView(TemplateView):
     print('ncc')
     template_name = "app.html"
-
+session={}
 class ChatterBotAppView(ChatterBotViewMixin, TemplateView):
     template_name = "app.html"
     """
@@ -89,11 +89,17 @@ class ChatterBotAppView(ChatterBotViewMixin, TemplateView):
 
         # print("conversation id is: "+str(conversation.id))
         # print(type(input_data))
-        input_data['session']=conversation.id
-        print('input data'+str(input_data))
+        try:
+            u_session=session[conversation.id]
+        except:
+            # session[conversation.id]='init'
+            u_session=session[conversation.id]='init'
+        input_data['session']=[u_session,conversation.id]
+        # print('input data'+str(input_data))
         response = self.chatterbot.get_response(json.dumps(input_data))
         response_data = response.serialize()
-
+        # print(response_data)
+        # print(type(response_data))
         return JsonResponse(response_data, status=200)
 
     def get(self, request, *args, **kwargs):
