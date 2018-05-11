@@ -87,19 +87,21 @@ class ChatterBotAppView(ChatterBotViewMixin, TemplateView):
 
         conversation = self.get_conversation(request)
 
-        # print("conversation id is: "+str(conversation.id))
-        # print(type(input_data))
         try:
             u_session=session[conversation.id]
         except:
-            # session[conversation.id]='init'
             u_session=session[conversation.id]='init'
         input_data['session']=[u_session,conversation.id]
-        # print('input data'+str(input_data))
         response = self.chatterbot.get_response(json.dumps(input_data))
         response_data = response.serialize()
+        # session[conversation.id]=
         # print(response_data)
-        # print(type(response_data))
+        session[conversation.id]=response_data['extra_data']['conversation_id'][0]
+        if(session[conversation.id]=='done'):
+            session[conversation.id]='init'
+        print('\nresponse: '+str(response))
+        # print('\nresponse data: '+str(response_data))
+        print(session)
         return JsonResponse(response_data, status=200)
 
     def get(self, request, *args, **kwargs):

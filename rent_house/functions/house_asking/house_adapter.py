@@ -11,33 +11,26 @@ class HouseAdapter(LogicAdapter):
         self.id_adapter = 'HOUSE'
         self.session={}
         self.pattern={
-            "street":"Thiếu đường, vui lòng nhập nhập thêm muối :))",
-            "district":"Thiếu tên quận, vui lòng nhập quận :>",
-            "province":"Thiếu tên thành phố, vui lòng nhập thành phố",
-            "maxPrice":"Thiếu giá, vui lòng nhập giá trước khi quá muộn :)"
+        "province":"Thiếu tên thành phố, vui lòng nhập thành phố",
+        "district":"Thiếu tên quận, vui lòng nhập quận :>",
+        "street":"Thiếu đường, vui lòng nhập nhập thêm muối :))",
+        "maxPrice":"Thiếu giá, vui lòng nhập giá trước khi quá muộn :)",
         }
 
     def can_process(self, statement):
         fb_statement = statement.extra_data
         state=fb_statement['conversation_id'][0]
-        if(fb_statement['action']=='__label__house' and (state = 'init' or state='house')):
+        print('\nstate: '+state)
+        if((fb_statement['action']=='__label__house' and state == 'init') or state == 'house'):
             return True
         else:
             return False
-        # if not fb_statement.has_key('id_adapter'):
-        #     rasa_nlu = fb_statement['rasa_nlu']
-        #     if self.id_adapter.lower() == rasa_nlu['intent']['name']:
-        #         return True
-        #     else:
-        #         return False
-        # else:
-        #     return False
-        #
+
 
     def process(self, statement):
         fb_statement = statement.extra_data
         ss_id=fb_statement['conversation_id'][1]
-        print(fb_statement)
+        # print(fb_statement)
         ner=fb_statement['ner']
         try:
             self.session[ss_id]
@@ -51,11 +44,16 @@ class HouseAdapter(LogicAdapter):
         for key,value in self.session[ss_id].items():
             if value is None:
                 pre_statement=self.pattern[key]
-                statementResponse = Statement(pre_statement)
-            else:
-                pass
+                break
+
         if pre_statement is None:
-            statementResponse = Statement(u"Chào bạn! Tôi có thể giúp gì cho bạn? House")
-        statementResponse.confidence = 0.1#rasa_nlu['intent']['confidence']
-        # print(statementResponse)
-        return statementResponse
+            statement.extra_data['conversation_id'][0]='done'
+            statement.text=u"Chào bạn! Tôi có thể giúp gì cho bạn? House"
+            pass
+        else:
+            statement.text=pre_statement
+            statement.extra_data['conversation_id'][0]='house'
+        print('\n---statement.text: '+statement.text)
+        # print(statement.extra_data)
+
+        return statement

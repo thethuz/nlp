@@ -10,15 +10,17 @@ class PriceAdapter(LogicAdapter):
         super(PriceAdapter, self).__init__(**kwargs)
         self.id_adapter = 'PRICE'
         self.pattern={
-            "street":"Thiếu đường, vui lòng nhập nhập thêm muối :))",
-            "district":"Thiếu tên quận, vui lòng nhập quận :>",
-            "province":"Thiếu tên thành phố, vui lòng nhập thành phố",
+        "street":"Thiếu đường, vui lòng nhập nhập thêm muối :))",
+        "district":"Thiếu tên quận, vui lòng nhập quận :>",
+        "province":"Thiếu tên thành phố, vui lòng nhập thành phố",
         }
+        self.session={}
 
     def can_process(self, statement):
         fb_statement = statement.extra_data
         state=fb_statement['conversation_id'][0]
-        if(fb_statement['action']=='__label__price' and (state = 'init' or state='price')):
+        print(state)
+        if((fb_statement['action']=='__label__price' and state == 'init') or state == 'price'):
             return True
         else:
             return False
@@ -40,12 +42,15 @@ class PriceAdapter(LogicAdapter):
         for key,value in self.session[ss_id].items():
             if value is None:
                 pre_statement=self.pattern[key]
-                statementResponse = Statement(pre_statement)
-            else:
-                pass
+                # statementResponse = Statement(pre_statement)
+
         if pre_statement is None:
-            # du thong tin
-            statementResponse = Statement(u"Chào bạn! Tôi có thể giúp gì cho bạn? House")
-        statementResponse.confidence = 0.1#rasa_nlu['intent']['confidence']
-        # print(statementResponse)
-        return statementResponse
+            statement.extra_data['conversation_id'][0]='done'
+            statement.text=u"Chào bạn! Tôi có thể giúp gì cho bạn? Price"
+        else:
+            statement.text=pre_statement
+            statement.extra_data['conversation_id'][0]='price'
+
+        # statementResponse.confidence = 0.1
+
+        return statement
