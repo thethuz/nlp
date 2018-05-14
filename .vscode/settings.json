@@ -1,0 +1,5 @@
+{
+    "python.pythonPath":"~/chatbot/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": false
+}

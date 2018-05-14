@@ -1,5 +1,5 @@
 import pickle
-from pyvi.pyvi import ViPosTagger,ViTokenizer
+from pyvi import ViPosTagger,ViTokenizer
 import requests
 import re
 import json

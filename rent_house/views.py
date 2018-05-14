@@ -5,7 +5,6 @@ from django.http import JsonResponse
 from chatterbot import ChatBot
 from chatterbot.ext.django_chatterbot import settings
 
-
 class ChatterBotViewMixin(object):
     """
     Subclass this mixin for access to the 'chatterbot' attribute.

@@ -13,7 +13,7 @@ SECRET_KEY = 'fsch+6!=q+@ol&%0x!nwdl@48^ixbd4clx5f1i!5n^66y+pmn*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['403fb5f5.ngrok.io', 'localhost', 'lucy.giasan.vn']
+ALLOWED_HOSTS = ['403fb5f5.ngrok.io', 'localhost', 'lucy.giasan.vn','127.0.0.1']
 
 HOST_API = 'https://giasan.vn'
 
@@ -94,16 +94,24 @@ WSGI_APPLICATION = 'rent_house.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306',
+#         'USER': 'root',
+#         'PASSWORD': 'Arrow@123',
+#         'NAME': 'chatbot'
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'Arrow@123',
-        'NAME': 'chatbot'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
 SILENCED_SYSTEM_CHECKS = ['mysql.E001']
 
 # Internationalization
